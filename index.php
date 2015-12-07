@@ -33,15 +33,15 @@
             <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="Chania">
         </div>
 
-        <div class="item">
+        <div class="1">
             <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="Chania">
         </div>
 
-        <div class="item">
+        <div class="2">
             <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="Chania">
         </div>
 
-        <div class="item">
+        <div class="3">
             <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="Chania">
         </div>
     </div>
