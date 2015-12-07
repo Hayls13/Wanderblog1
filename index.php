@@ -14,9 +14,8 @@
 <h2>WANDERBLOG</h2>
 
 <ul id="mymenu">
-    <li><a href="//Adventures.html">Adventures</a></li>
-    <li><a href="//Authors.html">Authors</a></li>
-    <li><a href="#">Search</a></li>
+    <li><a href="adventures.php">Search</a></li>
+    <li><a href="login.php">Login</a></li>
 </ul>
 
 <div id="popular-posts">
