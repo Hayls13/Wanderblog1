@@ -30,19 +30,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="img_chania.jpg" alt="Chania">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="Chania">
         </div>
 
         <div class="item">
-            <img src="img_chania2.jpg" alt="Chania">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="Chania">
         </div>
 
         <div class="item">
-            <img src="img_flower.jpg" alt="Flower">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="Chania">
         </div>
 
         <div class="item">
-            <img src="img_flower2.jpg" alt="Flower">
+            <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="Chania">
         </div>
     </div>
 
