@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wanderblog</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>WANDERBLOG</h2>
+
+<ul id="mymenu">
+    <li><a href="//Adventures.html">Adventures</a></li>
+    <li><a href="//Authors.html">Authors</a></li>
+    <li><a href="#">Search</a></li>
+</ul>
+
+<div id="popular-posts">
+    <div class="1">
+        <h3>post 1</h3>
+        <img src="http://placehold.it/350x150">
+    </div>
+    <div class="2">
+        <h3>post 2</h3>
+        <img src="http://placehold.it/350x150">
+    </div>
+    <div class="3">
+        <h3>post 3</h3>
+        <img src="http://placehold.it/350x150">
+    </div>
+    <div class="4">
+        <h3>post 4</h3>
+        <img src="http://placehold.it/350x150">
+    </div>
+    <div class="5">
+        <h3>post 5</h3>
+        <img src="http://placehold.it/350x150">
+    </div>
+</div>
+</body>
+</html>
+
+
+<?php
