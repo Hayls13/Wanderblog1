@@ -6,13 +6,10 @@ ul {
     background-color: slategrey;
 }
 
-#mymenu{
-    float: right;
-}
 
 li{
     display: inline;
-   text-align: center;
+   float: right;
     padding: 5px;
     margin-left: 120px;
 
