@@ -6,6 +6,9 @@ ul {
     background-color: slategrey;
 }
 
+#mymenu{
+    float: right;
+}
 
 li{
     display: inline;
@@ -19,7 +22,6 @@ li{
 
 a{
     color: white;
-    text-align: center;
 }
 
 h2{
