@@ -10,12 +10,14 @@ ul {
 li{
     display: inline;
    text-align: center;
+    padding: 5px;
 
 
 }
 
 a{
     color: white;
+    text-align: center;
 }
 
 h2{
