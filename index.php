@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div id="header">
 <h2>WANDERBLOG</h2>
 
 <ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
     <li><a href="login.php">Login</a></li>
 </ul>
+</div>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
