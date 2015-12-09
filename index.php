@@ -67,7 +67,7 @@ $result = $db->query($query);
     if(!$result){
         die('Nothing in result: ');
     }
-echo db_connecterrno
+echo "test";
     ?>
 </body>
 </html>
