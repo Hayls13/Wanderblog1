@@ -7,7 +7,7 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+    <script src="bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
