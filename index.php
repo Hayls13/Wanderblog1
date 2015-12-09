@@ -59,6 +59,10 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+<?PHP
+echo db_connecterrno
+    ?>
 </body>
 </html>
 
