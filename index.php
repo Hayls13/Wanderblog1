@@ -61,6 +61,11 @@
 </div>
 
 <?PHP
+$query = "SELECT * FROM logins WHERE 1";
+$result = $db->query($query);
+    if(!$result){
+        die('Nothing in result: ');
+    }
 echo db_connecterrno
     ?>
 </body>
