@@ -36,3 +36,11 @@ button {
     float: right;
     background-color: #d9edf7;
 }
+
+#bio h3{
+    align: center;
+}
+
+#bio img{
+    float: left;
+}
