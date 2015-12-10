@@ -60,9 +60,24 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+
 </div>
 
+<?php
 
+$db = new mysqli(
+    "br-cdbr-azure-south-a.cloudapp.net",
+    "beff680d970100",
+    "29313567",
+    "hr1300777"
+);
+
+if($db->connect_errno){
+    die('Connectfailed['.$db->connect-error.']');
+}
+else echo "<p> Connection sucessful</p>";
+
+?>
 
 </body>
 </html>
