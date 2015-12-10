@@ -31,7 +31,7 @@
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="text">
-            <a href="check_empty()" id="submit">Enter</a>
+            <a href="actions.js: check_empty()" id="submit">Enter</a>
         </form>
     </div>
 </ul>
