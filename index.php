@@ -20,7 +20,7 @@
 <ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
     <li><button id="popup" onclick="div_show()">Login</button></li>
-    
+
     <div id="popuplogin">
 
         <form action="authors.php" id="form" method="post" name="login">

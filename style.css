@@ -64,3 +64,13 @@ img#close{
     top: -14px;
     cursor: pointer;
 }
+
+button{
+    width: 10px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: mintcream;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
