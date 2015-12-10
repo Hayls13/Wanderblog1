@@ -23,6 +23,8 @@
 <ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
     <li><button id="popup" onclick=" div_show()">Login</button></li>
+</ul>
+</div>
 
     <div id="popuplogin">
 
@@ -32,10 +34,10 @@
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="text">
-            <a href="actions.js: check_empty()" id="submit">Enter</a>
+            <a href="check_empty()" id="submit">Enter</a>
         </form>
-    </div>
-</ul>
+
+
 </div>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
