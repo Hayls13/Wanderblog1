@@ -7,7 +7,7 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="bootstrap/bootstrap.min.js"></script>
+  <script src="bootstrap/css/bootstrap.min.js"></script>
     <script src="JS/actions.js"></script>
     <link rel="stylesheet" href="style.css">
 
@@ -21,7 +21,7 @@
 
 <ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
-    <li><button id="popup" onclick="div_show()">Login</button></li>
+    <li><button id="popup" onclick=" div_show()">Login</button></li>
 
     <div id="popuplogin">
 
