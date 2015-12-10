@@ -22,13 +22,13 @@
     <li><button id="popup" onclick="div_show()">Login</button></li>
 
     <div id="popuplogin">
-        <form action="#" id="form" method="post" name="login">
+        <form action="authors.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
             <h2>Login</h2>
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="text">
-            <a href="javascript:%20check_empty()" id="submit">Enter</a>
+            <a href="actions.js: check_empty()" id="submit">Enter</a>
         </form>
     </div>
 </ul>
