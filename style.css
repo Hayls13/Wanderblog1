@@ -5,6 +5,10 @@ ul {
 
 }
 
+body{
+    overflow: auto;
+}
+
 #header{
     background-color: slategrey;
     padding: 3px;
@@ -44,4 +48,19 @@ button {
 #bio img{
     float: left;
     margin-right: 15px;
+}
+
+#popuplogin{
+    max-width: 300px;
+    min-width: 250px;
+    padding:10px 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #d9edf7;
+}
+
+img#close{
+    right: -14px;
+    top: -14px;
+    cursor: pointer;
 }
