@@ -66,11 +66,11 @@ img#close{
 }
 
 button{
-    width: 10px;
+    width: 40px;
     height: 45px;
     border-radius: 3px;
     background-color: mintcream;
     color: #FFFFFF;
     cursor: pointer;
-    
+
 }
