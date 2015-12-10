@@ -27,7 +27,7 @@
             <h2>Login</h2>
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
-            <input id="pword" name="pword" placeholder="pword" type="text">
+            <input id="pword" name="pword" placeholder="password" type="text">
             <a href="javascript:%20check_empty()" id="submit">Enter</a>
         </form>
     </div>
