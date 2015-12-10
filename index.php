@@ -19,9 +19,10 @@
 
 <ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
-
+    <li><button id="popup" onclick="div_show()">Login</button></li>
+    
     <div id="popuplogin">
-        <li><button id="popup" onclick="div_show()">Login</button></li>
+
         <form action="authors.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
             <h2>Login</h2>
