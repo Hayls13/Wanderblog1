@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <?PHP include 'db_connect.php';?>
+    <?PHP require 'db_connect.php';?>
 </head>
 <body>
 
@@ -61,16 +61,10 @@
     </a>
 </div>
 
-<?PHP
-$query = "SELECT * FROM logins WHERE 1";
-$result = $db->query($query);
-    if(!$result){
-        die('Nothing in result: ');
-    }
-echo "test";
-    ?>
+
+
 </body>
 </html>
 
 
-<?php
+
