@@ -51,12 +51,14 @@ button {
 }
 
 #popuplogin{
-    max-width: 300px;
-    min-width: 250px;
+    width: 50%;
+    height: 50%;
     padding:10px 50px;
     border: 2px solid gray;
     border-radius: 10px;
     background-color: #d9edf7;
+
+
 }
 
 img#close{
@@ -68,7 +70,7 @@ img#close{
 button{
     width: 65px;
     height: 35px;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: mintcream;
     color: #000;
     cursor: pointer;

@@ -1,6 +1,6 @@
 // Validating Empty Field
 function check_empty() {
-    if (document.getElementById('name').value == "" || document.getElementById('email').value == "" ) {
+    if (document.getElementById('email').value == "" || document.getElementById('pword').value == "" ) {
         alert("Fill All Fields !");
     } else {
         document.getElementById('form').submit();
