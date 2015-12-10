@@ -30,3 +30,8 @@ a{
 h2{
     text-align: center;
 }
+
+button {
+    float: right;
+    background-color: #d9edf7;
+}
