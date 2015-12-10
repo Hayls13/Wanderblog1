@@ -14,6 +14,8 @@
 </head>
 <body>
 
+<div id="abc">
+
 <div id="header">
 <h2>WANDERBLOG</h2>
 
@@ -74,7 +76,7 @@
     </a>
 
 </div>
-
+</div>
 <?php
 
 $db = new mysqli(
