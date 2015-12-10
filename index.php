@@ -7,9 +7,9 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-   <!-- <script src="bootstrap.min.js"></script>-->
+  <script src="bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 
 <ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
-    <li><a href="login.php">Login</a></li>
+    <li><button id="popup" onclick="div_show()">Login</button></li>
 </ul>
 </div>
 
