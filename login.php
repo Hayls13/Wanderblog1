@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 $db = new mysqli(
     "br-cdbr-azure-south-a.cloudapp.net",
@@ -17,7 +20,7 @@ $email = $_POST["email"];
 $pword = $_POST["password"];
 echo "you're logged in " . $email . $pword;
 
-$sql_query = "SELECT * FROM logins WHERE email = '$email'";
+$sql_query = "SELECT * FROM logins WHERE email = '.$email.'";
 $result = $db->query($sql_query);
 
 while($row = $result->fetch_array()){
