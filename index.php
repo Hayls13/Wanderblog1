@@ -35,7 +35,7 @@
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="text">
-            <br><a href="check_empty()"><input type="submit" value="Enter"></a>
+            <br><input type="submit" value="Enter">
         </form>
     </div>
 
