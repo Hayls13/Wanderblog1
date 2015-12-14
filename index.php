@@ -47,9 +47,9 @@
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="text">
-                <br> <form>
+                <br>
+            <form>
                     <input type="radio" name="sex" value="reader" checked> Reader
-                    <br>
                     <input type="radio" name="sex" value="author"> Author
                 </form>
             <br><input type="submit" value="Submit">
