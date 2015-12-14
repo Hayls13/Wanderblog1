@@ -28,7 +28,7 @@
 
     <div id="popuplogin">
 
-        <form action="authors.php" id="form" method="post" name="login">
+        <form action="login.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
             <h2>Login</h2>
             <hr>
@@ -36,9 +36,20 @@
             <input id="pword" name="pword" placeholder="password" type="text">
             <a href="actions.js/check_empty()" id="submit">Enter</a>
         </form>
+    </div>
 
 
-</div>
+    <div id="register">
+        <form action="login.php" id="form" method="post" name="login">
+            <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
+            <h2>Login</h2>
+            <hr>
+            <input id="email" name="email" placeholder="email" type="text">
+            <input id="pword" name="pword" placeholder="password" type="text">
+            <a href="actions.js/check_empty()" id="submit">Enter</a>
+        </form>
+    </div>
+
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
