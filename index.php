@@ -35,7 +35,7 @@
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="text">
-            <input type="submit" value="Enter">
+            <br><input type="submit" value="Enter">
         </form>
     </div>
 
@@ -47,7 +47,7 @@
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="text">
-            <input type="submit" value="Submit">
+            <br><input type="submit" value="Submit">
         </form>
     </div>
 
