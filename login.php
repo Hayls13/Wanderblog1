@@ -17,4 +17,12 @@ $email = $_POST["email"];
 $pword = $_POST["password"];
 echo "you're logged in " . $email . $pword;
 
+$sql_query = "SELECT * FROM login WHERE email = '$email'";
+$result = $db->query($sql_query);
+
+while($row = $result->fetch_array()){
+    while($row = $result->fetch_array()){
+        echo "Hello user" . $row['email'];
+    }
+}
 ?>

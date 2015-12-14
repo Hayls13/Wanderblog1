@@ -35,7 +35,8 @@
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="password">
-            <br><input type="submit" value="Enter">
+            <br><input type="submit" value="Login">
+            <span><?php echo $error; ?></span>
         </form>
     </div>
 
