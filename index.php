@@ -23,6 +23,7 @@
 <ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
     <li><button id="popup" onclick=" div_show()">Login</button></li>
+    <li><button id="popup" onclick=" div_show()">Register</button></li>
 </ul>
 </div>
 
@@ -46,7 +47,7 @@
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="text">
-            <a href="actions.js/check_empty()" id="submit">Enter</a>
+            <input type="submit" value="Submit">
         </form>
     </div>
 
