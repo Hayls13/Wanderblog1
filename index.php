@@ -21,7 +21,7 @@
 <h2>WANDERBLOG</h2>
 
 <ul id="mymenu">
-    <li><a href="adventures.php">Search</a></li>
+    <li><a href="adventures.html">Search</a></li>
     <li><button id="popup" onclick=" div_show()">Login</button></li>
     <li><button id="popup" onclick=" div_show()">Register</button></li>
 </ul>
