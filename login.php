@@ -15,6 +15,6 @@ else echo "<p> Connection sucessful</p>";
 
 $email = $_POST["email"];
 $pword = $_POST["password"];
-echo $email . $pword;
+echo "you're logged in " . $email . $pword;
 
 ?>

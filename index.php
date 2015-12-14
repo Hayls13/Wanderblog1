@@ -34,7 +34,7 @@
             <h2>Login</h2>
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
-            <input id="pword" name="pword" placeholder="password" type="text">
+            <input id="pword" name="pword" placeholder="password" type="password">
             <br><input type="submit" value="Enter">
         </form>
     </div>
