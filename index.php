@@ -16,7 +16,6 @@
 <body>
 
 
-
 <div id="header">
 <h2>WANDERBLOG</h2>
 
@@ -35,7 +34,7 @@
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
             <input id="pword" name="pword" placeholder="password" type="text">
-            <br><input type="submit" value="Enter">
+            <br><a href="check_empty()"><input type="submit" value="Enter"></a>
         </form>
     </div>
 
