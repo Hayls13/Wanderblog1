@@ -91,6 +91,6 @@ button{
     display: block;
 }
 
-#advmenu{
-    display: block;
+#advmenu ul{
+    display: inline;
 }
