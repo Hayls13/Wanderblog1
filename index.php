@@ -27,7 +27,7 @@
 </ul>
 </div>
 
-    <div id="popuplogin">
+    <div id="popup">
 
         <form action="login.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
@@ -40,7 +40,7 @@
     </div>
 
 
-    <div id="register">
+    <div id="popup">
         <form action="login.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
             <h2>Login</h2>
