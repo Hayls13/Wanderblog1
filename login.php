@@ -25,4 +25,6 @@ while($row = $result->fetch_array()){
         echo "Hello user" . $row['email'];
     }
 }
+$result->close();
+    $db->close();
 ?>
