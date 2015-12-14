@@ -22,7 +22,7 @@ echo "you're logged in " . $email . $pword;
 
 $sql_query = "SELECT * FROM logins WHERE email = '.$email.'";
 $result = $db->query($sql_query);
-echo $result;
+print_r $result;
 
 while($row = $result->fetch_array()){
     while($row = $result->fetch_array()){
