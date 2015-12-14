@@ -92,5 +92,5 @@ button{
 }
 
 #advmenu{
-    display: inline;
+    display: inline-block;
 }
