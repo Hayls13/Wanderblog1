@@ -13,9 +13,9 @@ if($db->connect_errno){
 else echo "<p> Connection sucessful</p>";
 
 
-/*$email = $_POST["email"];
+$email = $_POST["email"];
 $pword = $_POST["password"];
-echo "you're logged in " . $email . $pword; */
+echo "you're logged in " . $email . $pword;
 
 $sql_query = "SELECT * FROM logins WHERE email = '$email'";
 $result = $db->query($sql_query);
