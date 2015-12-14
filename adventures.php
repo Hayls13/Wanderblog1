@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-<html lang="en">
 
 <title>Wanderblog</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -22,3 +21,5 @@
 </ul>
 
 <?php
+
+
