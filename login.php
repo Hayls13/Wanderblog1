@@ -17,7 +17,7 @@ else echo "<p> Connection sucessful</p>";
 
 
 $email = $_POST["email"];
-$pword = $_POST["password"];
+$pword = $_POST["pword"];
 echo "you're logged in " . $email . $pword;
 
 $sql_query = "SELECT * FROM logins WHERE email = '.$email.'";
