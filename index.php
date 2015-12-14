@@ -45,10 +45,10 @@
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
             <h2>Register</h2>
             <hr>
-            <label for="usrnm" class="ui-hidden-accessible">Username:</label>
+            <label for="fname" class="ui-hidden-accessible">First name:</label>
             <input id="fname" name="fname" placeholder="first name" type="text">
             <input id="lname" name="lname" placeholder="last name" type="text">
-            <input id="email" name="email" placeholder="email" type="text">
+            <input id="email" name="email" placeholder="email" type="text"><br>
             <label for="pswd" class="ui-hidden-accessible">Password:</label>
             <input id="pword" name="pword" placeholder="password" type="password">
                 <br>
