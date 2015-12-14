@@ -47,7 +47,9 @@
             <hr>
             <label for="fname" class="ui-hidden-accessible">First name:</label>
             <input id="fname" name="fname" placeholder="first name" type="text">
+            <label for="lname" class="ui-hidden-accessible">Last name:</label>
             <input id="lname" name="lname" placeholder="last name" type="text">
+            <label for="email" class="ui-hidden-accessible">Email address:</label>
             <input id="email" name="email" placeholder="email" type="text"><br>
             <label for="pswd" class="ui-hidden-accessible">Password:</label>
             <input id="pword" name="pword" placeholder="password" type="password">
