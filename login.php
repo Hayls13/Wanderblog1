@@ -13,10 +13,8 @@ if($db->connect_errno){
 else echo "<p> Connection sucessful</p>";
 
 
-
-
 $email = $_POST["email"];
-$pword = $_POST["pword"];
+$pword = $_POST["password"];
 echo $email . $pword;
 
 ?>
