@@ -90,3 +90,7 @@ button{
 #submit{
     display: block;
 }
+
+#advmenu{
+    display: inline;
+}
