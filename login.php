@@ -1,6 +1,5 @@
 <?php
 include ('session.php');
-include('index.php');
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -18,16 +17,11 @@ if($db->connect_errno){
 }
 else echo "<p> Connection sucessful</p>";
 
-
-/*$email = $_POST["email"];
-$password = $_POST["password"];
-echo "you're logged in " . $email;*/
-
 session_start(); // Starting Session
 $error=''; // Variable To Store Error Message
 if (isset($_POST['enter'])) {
     if (empty($_POST['email']) || empty($_POST['password'])) {
-        $error = "Email or Passwordg is invalid";
+        $error = "Email or Password is invalid";
     }
     else {
         $error = "you're logged in";
@@ -37,16 +31,15 @@ if (isset($_POST['enter'])) {
         $email=$_POST['email'];
         $password=$_POST['password'];
 // Establishing Connection with Server by passing server_name, user_id and password as a parameter
-        $connection = mysql_connect($address, $root, "");
 // To protect MySQL injection for Security purpose
         $email = stripslashes($email);
         $password = stripslashes($password);
-        $email = $db->real_escape_string($email);
-        $password = $db->_real_escape_string($password);
+        //$email = mysqli_real_escape_string($email);
+        //$password = mysqli__real_escape_string($password);
 // Selecting Database
         $db = mysqli_select_db('hr1300777', $connection);
 // SQL query to fetch information of registerd users and finds user match.
-        $query = mysqli_query($db,"select * from logins where password='$password' AND email='$email'", $connection);
+        $query = mysqli_query( $connection, $db,"select * from logins where password='$password' AND email='$email'");
         $rows = mysqli_num_rows($query);
         if ($rows == 1) {
             $_SESSION['login_user']=$email; // Initializing Session

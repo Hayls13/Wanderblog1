@@ -7,7 +7,7 @@
             load page-->
 <?php
 include('session.php');
-include('login.php');
+$login_session = $_SESSION['login_user'];
 ?>
 
 <div id="bio">
@@ -16,6 +16,7 @@ include('login.php');
     <h3>Name: </h3><?php echo $login_session; ?>
     <h3>Location: </h3>
     <h3>Description: </h3>
+    <h3><a href="logout.php">Logout</a></h3>
 
 </div>
 
