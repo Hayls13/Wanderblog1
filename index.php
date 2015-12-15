@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 
-
+<?php include('login.php');
+      include('session.php'); ?>
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +11,6 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="/bootstrap/js/bootstrap.min.js"></script>
-    <script src="JS/actions.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 

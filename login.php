@@ -27,7 +27,7 @@ session_start(); // Starting Session
 $error=''; // Variable To Store Error Message
 if (isset($_POST['enter'])) {
     if (empty($_POST['email']) || empty($_POST['password'])) {
-        $error = "Email or Password is invalid";
+        $error = "Email or Passwordg is invalid";
     }
     else {
         $error = "you're logged in";
@@ -56,7 +56,7 @@ if (isset($_POST['enter'])) {
         }
         mysqli_close($connection); // Closing Connection
     }
-}
+
 
 echo $error;
 
