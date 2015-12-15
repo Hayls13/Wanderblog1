@@ -41,8 +41,8 @@ if (isset($_POST['enter'])) {
 // To protect MySQL injection for Security purpose
         $email = stripslashes($email);
         $password = stripslashes($password);
-        $email = mysqli_real_escape_string($email);
-        $password = mysqli_real_escape_string($password);
+        $email = $db->real_escape_string($email);
+        $password = $db->_real_escape_string($password);
 // Selecting Database
         $db = mysqli_select_db('hr1300777', $connection);
 // SQL query to fetch information of registerd users and finds user match.
