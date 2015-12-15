@@ -15,7 +15,9 @@ $db = new mysqli(
 if($db->connect_errno){
     die('Connectfailed['.$db->connect-error.']');
 }
-else echo "<p> Connection sucessful</p>";
+else {
+    echo "<p> Connection sucessful</p>";
+}
 
 session_start(); // Starting Session
 $error=''; // Variable To Store Error Message

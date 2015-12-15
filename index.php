@@ -23,8 +23,8 @@
 <h2>WANDERBLOG</h2>
 
 <ul id="mymenu">
-    <li><a href="adventures.php">Search</a></li>
     <li><button id="popup" >Login</button></li>
+    <li><a href="adventures.php">Search</a></li>
     <li><button id="popup" >Register</button></li>
 </ul>
 </div>
