@@ -28,8 +28,10 @@ if (isset($_POST['enter'])) {
     if (empty($_POST['email']) || empty($_POST['password'])) {
         $error = "Email or Password is invalid";
     }
-    else
-    {
+    else {
+        $error = "you're logged in";
+        echo $error;
+    }
 // Define $username and $password
         $email=$_POST['email'];
         $password=$_POST['password'];
