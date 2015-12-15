@@ -121,9 +121,10 @@
 
 </div>
 
+
 <?php
 
-$db = new mysqli(
+/*$db = new mysqli(
     "br-cdbr-azure-south-a.cloudapp.net",
     "beff680d970100",
     "29313567",
@@ -134,7 +135,7 @@ if($db->connect_errno){
     die('Connectfailed['.$db->connect-error.']');
 }
 else echo "<p> Connection sucessful</p>";
-
+*/
 ?>
 
 </body>
