@@ -39,7 +39,7 @@
             <input id="email" name="email" placeholder="email" type="text">
             <input id="password" name="password" placeholder="password" type="password">
             <br><input type="submit" value="enter">
-            
+
         </form>
     </div>
 
