@@ -17,7 +17,7 @@ else echo "<p> Connection sucessful</p>";
 
 
 $email = $_POST["email"];
-$pword = $_POST["pword"];
+$password = $_POST["password"];
 echo "you're logged in " . $email;
 
 session_start(); // Starting Session
@@ -41,14 +41,42 @@ if (isset($_POST['submit'])) {
 // Selecting Database
         $db = mysql_select_db("company", $connection);
 // SQL query to fetch information of registerd users and finds user match.
-        $query = mysql_query("select * from login where password='$password' AND username='$username'", $connection);
+        $query = mysqli_query("select * from login where password='$password' AND username='$username'", $connection);
         $rows = mysql_num_rows($query);
         if ($rows == 1) {
             $_SESSION['login_user']=$username; // Initializing Session
-            header("location: profile.php"); // Redirecting To Other Page
+            header("location: author.php"); // Redirecting To Other Page
         } else {
             $error = "Username or Password is invalid";
         }
         mysql_close($connection); // Closing Connection
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
