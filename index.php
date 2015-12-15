@@ -10,9 +10,9 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>-->
 
 
 </head>
@@ -43,7 +43,7 @@
     </div>
 
 
-    <div id="popup">
+    <div id="popupr">
         <form action="register.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
             <h2>Register</h2>
