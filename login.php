@@ -42,7 +42,7 @@ if (isset($_POST['enter'])) {
 // Selecting Database
         $db = mysqli_select_db('hr1300777', $connection);
 // SQL query to fetch information of registerd users and finds user match.
-        $query = mysqli_query($db,"select * from logins where password='$password' AND username='$username'", $connection);
+        $query = mysqli_query($db,"select * from logins where password='$password' AND email='$email'", $connection);
         $rows = mysqli_num_rows($query);
         if ($rows == 1) {
             $_SESSION['login_user']=$email; // Initializing Session
