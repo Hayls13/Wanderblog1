@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <?php include('login.php');
       include('session.php'); ?>
@@ -45,7 +45,7 @@
 
 
     <div id="popup">
-        <form action="login.php" id="form" method="post" name="login">
+        <form action="register.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
             <h2>Register</h2>
             <hr>
