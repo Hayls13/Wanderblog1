@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
+<?php include('login.php');
+      include('session.php'); ?>
+
 <head>
     <meta charset="UTF-8">
     <title>Wanderblog</title>

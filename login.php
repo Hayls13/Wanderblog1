@@ -46,7 +46,7 @@ if (isset($_POST['enter'])) {
         $rows = mysqli_num_rows($query);
         if ($rows == 1) {
             $_SESSION['login_user']=$email; // Initializing Session
-            header("location: author.php"); // Redirecting To Other Page
+            header("location: authors.php"); // Redirecting To Other Page
         } else {
             $error = "Email or Password is invalid";
         }
