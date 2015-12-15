@@ -24,8 +24,8 @@
 
 <ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
-    <li><button id="popup" onclick=" div_show()">Login</button></li>
-    <li><button id="popup" onclick=" div_show()">Register</button></li>
+    <li><button id="popup" >Login</button></li>
+    <li><button id="popup" >Register</button></li>
 </ul>
 </div>
 
