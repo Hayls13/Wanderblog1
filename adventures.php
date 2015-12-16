@@ -23,9 +23,9 @@ if ($db->connect_errno) {
 $sql_query = "SELECT * FROM adventure";
 $result = $db->query($sql_query);
 
-echo "test" . $result;
+echo "test"
 
-/*
+
 
 while($row = $result->fetch_array()){
     echo "<p>" . $row['title'] . "</p>";
@@ -33,7 +33,7 @@ while($row = $result->fetch_array()){
 
 
 $result->close();
-    $db->close();*/
+    $db->close();
 
 ?>
 
