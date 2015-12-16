@@ -1,5 +1,5 @@
 <?php
-$db= newmysqli(
+$db= new mysqli(
     "br-cdbr-azure-south-a.cloudapp.net",
     "beff680d970100",
     "29313567",
