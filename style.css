@@ -98,3 +98,8 @@ button{
 #adventures a{
     color: black;
 }
+
+#advresults{
+    display: inline;
+    padding: 10px;
+}
