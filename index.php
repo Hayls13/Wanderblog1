@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 
-<?php //include('login.php');
-//      include('session.php'); ?>
+<?php include('login.php');
+   include('session.php'); ?>
 
 <head>
     <meta charset="UTF-8">
