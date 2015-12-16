@@ -48,10 +48,12 @@ if ($db->connect_errno) {
 }
 
 
+
+echo '<div id ="advresults">';
 $sql_query = "SELECT * FROM adventure";
 $result = $db->query($sql_query);
 
-echo '<div id ="advresults">';
+
 while($row = $result->fetch_array()){
     echo "<a href='adventureinfo.php'>". $row['title'] . "</a>";
 
