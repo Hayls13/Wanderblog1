@@ -20,7 +20,7 @@ if ($db->connect_errno) {
 }
 
 
-$sql_query = "SELECT * FROM title";
+$sql_query = "SELECT * FROM adventure";
 $result = $db->query($sql_query);
 
 echo "test" . $result;
