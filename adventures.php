@@ -19,14 +19,13 @@ if ($db->connect_errno) {
     echo "<p> Connection sucessful</p>";
 }
 
-
-
-/*
 $query = ( $db,"SELECT * FROM title");
 $result = $db->query($query);
 
 echo $result;
 
+
+/*
 while($row = $result->fetch_array()){
     echo "<p>" . $row['title'] . "</p>";
 }
