@@ -18,13 +18,13 @@ if ($db->connect_errno) {
 }
 
 
-
+/*
 $query = ( $db,"SELECT * FROM title");
 $result = $db->query($query);
 
 echo $result;
 
-/*while($row = $result->fetch_array()){
+while($row = $result->fetch_array()){
     echo "<p>" . $row['title'] . "</p>";
 }
 
