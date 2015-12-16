@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 1300777
- * Date: 15/12/2015
- * Time: 16:27
- */
+/*
+
+  $sql = "INSERT INTO register VALUES ('$firstname','$lastname', '$email', '$password', '$usertype');
+ if ($result = $db->query($sql)){
+  echo "<p> Registration sent for verification</p>"
+
+*/
