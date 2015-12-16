@@ -20,7 +20,7 @@ if ($db->connect_errno) {
 include("db_connect.php");
 
 
-$sql_query = "SELECT * FROM adventures ";
+$sql_query = "SELECT * FROM title ";
 $result = $db->query($sql_query);
 
 echo $result;
