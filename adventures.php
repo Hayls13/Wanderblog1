@@ -20,8 +20,8 @@ if ($db->connect_errno) {
 include("db_connect.php");
 
 
-$sql_query = "SELECT * FROM title ";
-$result = $db->query($sql_query);
+$query = ( $connection, $db,"SELECT * FROM title");
+$result = $db->query($query);
 
 echo $result;
 
@@ -38,9 +38,9 @@ $result->close();
 
 
 <title>Wanderblog</title>
+<head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="/bootstrap/js/bootstrap.min.js"></script>
-<script src="JS/actions.js"></script>
+<script src="/bootstrap/bootstrap/css/bootstrap.css"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
