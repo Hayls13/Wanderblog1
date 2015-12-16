@@ -6,9 +6,17 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+$db= new mysqli(
+    "br-cdbr-azure-south-a.cloudapp.net",
+    "beff680d970100",
+    "29313567",
+    "hr1300777"
+);
+
 include("db_connect.php");
 
-$sql_query = "SELECT * FROM adventures";
+
+$sql_query = "SELECT * FROM adventures ";
 $result = $db->query($sql_query);
 
 echo $result;
