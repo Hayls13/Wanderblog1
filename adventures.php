@@ -21,7 +21,7 @@ if ($db->connect_errno) {
 
 
 $sql_query = "SELECT * FROM title";
-$result = $db->query($query);
+$result = $db->query($sql_query);
 
 echo $result;
 
@@ -60,6 +60,8 @@ $result->close();
     </li>
 </ul>
 
-<?php
+
+
+</body>
 
 
