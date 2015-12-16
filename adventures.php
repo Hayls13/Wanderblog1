@@ -25,13 +25,13 @@ $result = $db->query($query);
 
 echo $result;
 
-while($row = $result->fetch_array()){
+/*while($row = $result->fetch_array()){
     echo "<p>" . $row['title'] . "</p>";
 }
 
 
 $result->close();
-    $db->close();
+    $db->close();*/
 
 ?>
 
