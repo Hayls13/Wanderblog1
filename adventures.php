@@ -1,5 +1,30 @@
 <!DOCTYPE HTML>
 
+<?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$db = new mysqli(
+    "br-cdbr-azure-south-a.cloudapp.net",
+    "beff680d970100",
+    "29313567",
+    "hr1300777"
+);
+
+if($db->connect_errno){
+    die('Connectfailed['.$db->connect-error.']');
+}
+else {
+    echo "<p> Connection sucessful</p>";
+}
+
+
+?>
+
+
+
 <title>Wanderblog</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="/bootstrap/js/bootstrap.min.js"></script>

@@ -28,7 +28,7 @@ if (isset($_POST['email']) && isset($_POST['password'])){
     }
     else {
         $error = "you're logged in";
-        echo "h" $error;
+        echo $error;
     }
 // Define $username and $password
         $email=$_POST['email'];

@@ -58,8 +58,8 @@
             <input id="pword" name="pword" placeholder="password" type="password">
                 <br>
             <form>
-                    <input type="radio" name="sex" value="reader" checked> Reader
-                    <input type="radio" name="sex" value="author"> Author
+                    <input type="radio" name="usertype" value="reader" checked> Reader
+                    <input type="radio" name="usertype" value="author"> Author
                 </form>
             <br><input type="submit" value="Submit">
         </form>
