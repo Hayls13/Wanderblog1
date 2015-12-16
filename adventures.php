@@ -23,7 +23,7 @@ if ($db->connect_errno) {
 $sql_query = "SELECT * FROM title";
 $result = $db->query($sql_query);
 
-echo $result;
+echo "test" . $result;
 
 /*
 
