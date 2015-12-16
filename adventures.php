@@ -13,6 +13,10 @@ $db= new mysqli(
     "hr1300777"
 );
 
+if ($db->connect_errno) {
+    die('connection failed :'.$db->connect_error);
+}
+
 include("db_connect.php");
 
 
