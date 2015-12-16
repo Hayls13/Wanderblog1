@@ -5,7 +5,7 @@ $root = "hr1300777";
 $connection = mysqli_connect($address, $root, "");
 
 // Selecting Database
-$db = mysqli_select_db($root, $connection);
+$db = mysqli_select_db( $connection, $root);
 session_start();// Starting Session
 // Storing Session
 $user_check=$_SESSION['login_user'];
