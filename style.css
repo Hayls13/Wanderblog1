@@ -97,10 +97,11 @@ button{
 
 #adventures a{
     color: black;
+    padding: 10px;
 }
 
-#advresults{
+#advresults {
     display: inline;
-    padding: 10px;
+
     margin: 10px;
 }
