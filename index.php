@@ -20,7 +20,7 @@
 
 
 <div id="header">
-<h2>WANDERBLOG</h2>
+<h2>WANDERBLOG 2</h2>
 
 <ul id="mymenu">
     <li><button id="popup" >Login</button></li>
