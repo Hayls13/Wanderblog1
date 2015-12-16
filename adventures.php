@@ -28,8 +28,8 @@ echo "test";
 
 
 while($row = $result->fetch_array()){
-    //echo "<p>" . $row['title'] . "</p>";
-    echo "<a href= \"$db[title]\">".$db['title'] . "</a>";
+    echo "<p>" . $row['title'] . $row['adventureAddress'] . "</p>";
+   // echo "<a href= \"$db[title]\">".$db['title'] . "</a>";
 }
 
 
