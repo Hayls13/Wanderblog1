@@ -11,9 +11,8 @@ $db = new mysqli(
     "29313567",
     "hr1300777"
 );
-
-if($db->connect_errno){
-    die('Connectfailed['.$db->connect-error.']');
+if ($db->connect_errno) {
+    die('connection failed :'.$db->connect_error);
 }
 else {
     echo "<p> Connection sucessful</p>";
