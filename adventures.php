@@ -10,7 +10,9 @@ include("db_connect.php");
 
 $sql_query = "SELECT * FROM adventures";
 $result = $db->query($sql_query);
-echo $sql_query;
+
+echo $result;
+
 while($row = $result->fetch_array()){
     echo "<p>" . $row['title'] . "</p>";
 }
