@@ -15,7 +15,10 @@ $db= new mysqli(
 
 if ($db->connect_errno) {
     die('connection failed :'.$db->connect_error);
+} else {
+    echo "<p> Connection sucessful</p>";
 }
+
 
 
 /*
