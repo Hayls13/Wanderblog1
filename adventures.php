@@ -17,10 +17,9 @@ if ($db->connect_errno) {
     die('connection failed :'.$db->connect_error);
 }
 
-include("db_connect.php");
 
 
-$query = ( $connection, $db,"SELECT * FROM title");
+$query = ( $db,"SELECT * FROM title");
 $result = $db->query($query);
 
 echo $result;
