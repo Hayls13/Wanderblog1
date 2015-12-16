@@ -38,7 +38,7 @@ $picture =
 <h1> Adventures </h1>
 <ul>
     <li>filter by highest vote</li>
-    <li><a href="index.php"</a></li>
+    <li><a href="index.php">Home</a></li>
     <!--when click script an action that will sort from highest to lowest votes-->
     <li><form action="adventures.php">
             Search Adventures:

@@ -1,5 +1,5 @@
 <?php
-//include ('session.php');
+include ('session.php');
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -39,7 +39,6 @@ if (isset($_POST['email']) && isset($_POST['password'])){
         $password = stripslashes($password);
         //$email = mysqli_real_escape_string($email);
         //$password = mysqli__real_escape_string($password);
-// Selecting Database
 // SQL query to fetch information of registerd users and finds user match.
         $query = mysqli_query( $connection, $db,"select * from logins where password='$password' AND email='$email'");
         $rows = mysqli_num_rows($query);
