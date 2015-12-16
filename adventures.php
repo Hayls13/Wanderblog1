@@ -1,8 +1,7 @@
 <!DOCTYPE HTML>
 
 
-
-
+<link rel="stylesheet" href="style.css">
 <title>Wanderblog</title>
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -28,7 +27,7 @@
 
 </body>
 
-
+<div id="adventures">
 <?php
 
 ini_set('display_errors', 1);
@@ -58,11 +57,12 @@ echo "test" . "<br>";
 
 while($row = $result->fetch_array()){
     echo "<a href='adventureinfo.php'>". $row['title'] . "</a>";
-    echo "test";
+
     // echo "<a href= \"$db[title]\">".$db['title'] . "</a>";
 }
+?>
 
-
+</div>
 
 
 $result->close();
