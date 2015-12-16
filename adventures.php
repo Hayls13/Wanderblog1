@@ -57,7 +57,7 @@ echo "test" . "<br>";
 
 
 while($row = $result->fetch_array()){
-    echo "<p>" . $row['title'] . $row['adventureAddress'] . "</p>";
+    echo "<a href='adventureinfo.php'>". $row['title'] . "</a>";
     // echo "<a href= \"$db[title]\">".$db['title'] . "</a>";
 }
 
