@@ -8,6 +8,17 @@ error_reporting(E_ALL);
 
 include("db_connect.php");
 
+$sql_query = "SELECT * FROM adventures";
+$result = $db->query($sql_query);
+
+while($row = $result->fetch_array()){
+    echo "<p>" . $row['title'] . "</p>";
+}
+
+
+$result->close();
+    $db->close;
+
 ?>
 
 
