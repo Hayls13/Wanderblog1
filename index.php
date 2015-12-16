@@ -34,7 +34,7 @@
     <div id="popup">
 
         <form action="login.php" id="form" method="post" name="login">
-            <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
+            <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div.hide()">
             <h2>Login</h2>
             <hr>
             <input id="email" name="email" placeholder="email" type="text">
@@ -47,7 +47,7 @@
 
     <div id="popupr">
         <form action="register.php" id="form" method="post" name="login">
-            <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div_hide()">
+            <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div.hide()">
             <h2>Register</h2>
             <hr>
             <label for="fname" class="ui-hidden-accessible">First name:</label>
