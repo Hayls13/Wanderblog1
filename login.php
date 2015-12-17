@@ -39,6 +39,7 @@ $error=''; // Variable To Store Error Message
         //$password = mysqli__real_escape_string($password);
 // SQL query to fetch information of registerd users and finds user match.
         $query = "select * from logins where password='".$password."' AND email='".$email."'";
+        echo $query;
         $result = $db->query($query);
         if(isset($result)){
             echo($result);
