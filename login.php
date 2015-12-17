@@ -42,7 +42,7 @@ $error=''; // Variable To Store Error Message
         echo $query;
         $result = $db->query($query);
         if(isset($result)){
-            echo($result);
+            echo $result ;
             $rows = $result->fetch_array();
 
             //  while () {
