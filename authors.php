@@ -32,10 +32,9 @@ $namer = $db->query($name);
 
 
     <?php
-    while( $fresult = $namer->fetch_array()){
-        echo "<h3>Name:" . $fresult['First_Name'] ."</h3>";
+    while( $resultn = $namer->fetch_array()){
+        echo "<h3>Name:" . $resultn['First_Name'] ."</h3>";
     }
-    $namer->close();
     ?>
 
 
