@@ -67,11 +67,15 @@ $imageresult1 = $db->query($sqlimage);
 
 echo $imageresult1;
 
+while( $imageoutput = $imageresult1->fetch_array()){
+   ?> <img src = "<?php '$imageoutput'; ?> />
+   <?php
+}
+
+
 while($row = $result->fetch_array()){
     echo "<a href='adventureinfo.php'>". $row['title'] . "</a>";
 
-
-    // echo "<a href= \"$db[title]\">".$db['title'] . "</a>";
 }
 
 echo '</div>';
