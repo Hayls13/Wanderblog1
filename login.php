@@ -47,7 +47,7 @@ $error=''; // Variable To Store Error Message
         } else {
             $error = "Email or Password is invalid";
         }
-        mysqli_close($connection); // Closing Connection
+        $rows->close();
 
     }
 
