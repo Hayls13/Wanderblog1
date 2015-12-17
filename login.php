@@ -40,8 +40,9 @@ $error=''; // Variable To Store Error Message
 // SQL query to fetch information of registerd users and finds user match.
         $query = "select * from logins where password='$password' AND email='$email'";
         $result = $db->query($query);
+        $rows = $result;
 
-        while ($rows = $result->fetch_array()) {
+      //  while ($rows = $result->fetch_array()) {
             if ($rows == 1) {
                 $_SESSION['login_user'] = $email; // Initializing Session
                 header("location: authors.php"); // Redirecting To Other Page
@@ -50,7 +51,7 @@ $error=''; // Variable To Store Error Message
             }
             $result->close();
 
-        }
+       // }
     }
 
 
