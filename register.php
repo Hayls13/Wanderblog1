@@ -22,8 +22,8 @@ else {
     echo "<p> Connection sucessful</p>";
 }
 
-if (empty($_POST['username']) || empty($_POST['password'])) {
-$error = "Email or Password is invalid";
+//if (empty($_POST['username']) || empty($_POST['password'])) {
+//$error = "Email or Password is invalid";
 
 
 //if(empty($_POST) === false){
