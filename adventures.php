@@ -46,7 +46,7 @@ $db= new mysqli(
 if ($db->connect_errno) {
     die('connection failed :'.$db->connect_error);
 } else {
-    echo "<p> Connection sucessfuls</p>";
+    echo "<p> Connection successful</p>";
 }
 
 
