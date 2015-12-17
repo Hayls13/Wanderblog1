@@ -7,10 +7,29 @@
 
 */
 
-if(empty($_POST) === false){
-    $required_fields = array('username','pword','pword_again','first_name','email');
-    echo '<pre>', print_r($_POST,true),'</pre>';
+
+$db = new mysqli(
+    "br-cdbr-azure-south-a.cloudapp.net",
+    "beff680d970100",
+    "29313567",
+    "hr1300777"
+);
+
+if ($db->connect_errno) {
+    die('connection failed :'.$db->connect_error);
 }
+else {
+    echo "<p> Connection sucessful</p>";
+}
+
+if (empty($_POST['username']) || empty($_POST['password'])) {
+$error = "Email or Password is invalid";
+
+
+//if(empty($_POST) === false){
+//    $required_fields = array('username','pword','pword_again','first_name','email');
+//    echo ;
+//}
 
 
 
@@ -20,16 +39,11 @@ if(empty($_POST) === false){
 
 <form action="" method=""post>
     <ul>
-        <li>
-            Username*:<br>
-            <input type="text" name="username">
-        </li>
-
         <li>Password*: <br>
-            <input type="pword" name="pword">
+            <input type="password" name="password">
         </li>
         <li>Password again*: <br>
-            <input type="pword" name="pword_again">
+            <input type="password" name="password_again">
         </li>
         <li>
             First Name*: <br>

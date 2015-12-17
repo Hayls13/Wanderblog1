@@ -14,7 +14,9 @@ $db = new mysqli(
 
 $login_session = $_SESSION['login_user'];
 
-$location = "SELECT location FROM logins WHERE  .  "'$login_session'" . = email";
+//$location = "SELECT country FROM logins WHERE  .  "'$login_session'" . = email";
+
+
 ?>
 
 <div id="bio">
