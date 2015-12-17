@@ -15,7 +15,7 @@ $db = new mysqli(
 
 $login_session = $_SESSION['login_user'];
 
-$location = "SELECT country FROM logins WHERE  .  $login_session . = ".$db['email']."";
+$location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
 $locationr = $db->query($location);
 
 
