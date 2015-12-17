@@ -18,8 +18,11 @@ $login_session = $_SESSION['login_user'];
 $location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
 $locationr = $db->query($location);
 
+$fname = "SELECT First_Name AND Last_Name FROM logins WHERE  email = '".$login_session."'";
+$fnamer = $db->query($fname);
 
-
+//$location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
+//$locationr = $db->query($location);
 
 ?>
 
@@ -27,7 +30,14 @@ $locationr = $db->query($location);
     <!--placeholder for profile image if used-->
     <img src="https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300">
 
-    <h3>Name: </h3><?php echo "<h4>" . $login_session . "<h4>"; ?>
+
+    <?php
+    while( $fresult = $rnamer->fetch_array()){
+        echo "<h3>Name:" . $result['First_Name']['Last_Name'] ."</h3>";
+    }
+    $fnamer->close();
+    ?>
+
 
     <?php
     while( $result = $locationr->fetch_array()){
