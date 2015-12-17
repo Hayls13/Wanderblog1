@@ -10,7 +10,8 @@
 </head>
 <body>
 
-<h1> Adventures </h1>
+<h1 class="advhead"> Adventures </h1>
+<div id = "advmenu">
 <ul>
     <li>filter by highest vote</li>
     <li><a href="index.php">Home</a></li>
@@ -22,6 +23,7 @@
         </form>
     </li>
 </ul>
+</div>
 
 
 

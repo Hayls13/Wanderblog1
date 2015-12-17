@@ -4,6 +4,6 @@ include('adventureinfo.php');
 
 echo "test";
 
-echo "<p>" . $row['title'] . "</p>";
+//echo "<p>" . $row['title'] . "</p>";
 
 ?>
