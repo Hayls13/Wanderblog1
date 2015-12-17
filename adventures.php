@@ -65,8 +65,6 @@ $result = $db->query($sql_query);
 $sqlimage  = "SELECT adventureAddress FROM photo where `photoID` = 000001";
 $imageresult1 = $db->query($sqlimage);
 
-echo $imageresult1;
-
 while( $imageoutput = $imageresult1->fetch_array()){
    ?> <img src = "<?php '$imageoutput'; ?> />
    <?php
