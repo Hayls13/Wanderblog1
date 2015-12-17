@@ -7,6 +7,13 @@
 
 */
 
+if(empty($_post) === false){
+    $required_fields = array('username','pword','pword_again','first_name','email',);
+    echo '<pre>', print_r($_post,true),'</pre>';
+}
+
+
+
 ?>
 
 <h1>Register</h1>
@@ -14,14 +21,14 @@
 <form action="" method=""post>
     <ul>
         <li>
-            <br>Username*:<br>
+            Username*:<br>
             <input type="text" name="username">
         </li>
 
-        <li><br>Password*: <br>
+        <li>Password*: <br>
             <input type="pword" name="pword">
         </li>
-        <li><br>Password again*: <br>
+        <li>Password again*: <br>
             <input type="pword" name="pword_again">
         </li>
         <li>
@@ -39,10 +46,6 @@
         <li>
             <input type="submit" value="Register"
         </li>
-
-
-
-
     </ul>
 
 </form>
