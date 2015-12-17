@@ -6,7 +6,7 @@
 <!--if login == successful
             load page-->
 <?php
-include('session.php');
+//include('session.php');
 $login_session = $_SESSION['login_user'];
 ?>
 

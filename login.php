@@ -39,15 +39,14 @@ $error=''; // Variable To Store Error Message
         //$password = mysqli__real_escape_string($password);
 // SQL query to fetch information of registerd users and finds user match.
         $query = "select * from logins where password='$password' AND email='$email'";
-        echo $query;
-        $rows = $db->query($query);
+        $result = $db->query($query);
         if ($rows == 1) {
             $_SESSION['login_user'] = $email; // Initializing Session
             header("location: authors.php"); // Redirecting To Other Page
         } else {
             $error = "Email or Password is invalid";
         }
-        $rows->close();
+        $result->close();
 
     }
 
