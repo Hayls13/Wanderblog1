@@ -67,7 +67,7 @@ $imageresult1 = $db->query($sqlimage);
 
 while( $imageoutput = $imageresult1->fetch_array()){
    ?> <img src = "<?php '$imageoutput'; ?> />
-   <?php
+   <?php echo "test";
 }
 
 
