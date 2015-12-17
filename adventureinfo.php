@@ -1,9 +1,9 @@
 <?php
-include('adventureinfo.php');
+include('adventures.php');
 
 
 echo "test";
 
-//echo "<p>" . $row['title'] . "</p>";
+echo "<p>" . $row['title'] . "</p>";
 
 ?>
