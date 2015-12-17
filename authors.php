@@ -18,8 +18,8 @@ $login_session = $_SESSION['login_user'];
 $location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
 $locationr = $db->query($location);
 
-$fname = "SELECT First_Name AND Last_Name FROM logins WHERE  email = '".$login_session."'";
-$fnamer = $db->query($fname);
+$name = "SELECT First_Name AND Last_Name FROM logins WHERE  email = '".$login_session."'";
+$namer = $db->query($name);
 
 //$location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
 //$locationr = $db->query($location);
@@ -32,10 +32,10 @@ $fnamer = $db->query($fname);
 
 
     <?php
-    while( $fresult = $fnamer->fetch_array()){
+    while( $fresult = $namer->fetch_array()){
         echo "<h3>Name:" . $fresult['First_Name']['Last_Name'] ."</h3>";
     }
-    $fnamer->close();
+    $namer->close();
     ?>
 
 
@@ -44,7 +44,6 @@ $fnamer = $db->query($fname);
         echo "<h3>Location:" . $result['country']."</h3>";
     }
     ?>
-    <h3>Description: </h3>
 
     <h3>Past Adventures: </h3>
 
