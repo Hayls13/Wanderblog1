@@ -12,6 +12,7 @@ ul {
 
 h2{
     color: white;
+    text-align: center;
 }
 
 #header a{
@@ -28,9 +29,6 @@ li{
 
 }
 
-h2{
-    text-align: center;
-}
 
 button {
     float: right;
@@ -98,11 +96,10 @@ button{
 #adventures a{
     color: black;
     padding: 10px;
+    margin: 10px;
     background-color: mintcream;
 }
 
-#advresults {
-    display: inline;
-
-    margin: 10px;
+.advhead {
+    text-align: center;
 }
