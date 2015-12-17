@@ -44,7 +44,7 @@ $error=''; // Variable To Store Error Message
             $rows = $result->fetch_array();
 
             //  while () {
-            if ($rows . length == 1) {
+            if (count($rows)> 0) {
                 $_SESSION['login_user'] = $email; // Initializing Session
                 header("location: authors.php"); // Redirecting To Other Page
             } else {
