@@ -69,7 +69,7 @@ $imageresult1 = $db->query($sqlimage);
 
 
 while( $imageoutput = $imageresult1->fetch_array()){
-   echo "<img src = '".$imageoutput."' />";
+   echo "<img src = '".$imageoutput['adventureAddress']."' />";
 }
 
 
