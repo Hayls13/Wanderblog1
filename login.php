@@ -38,17 +38,16 @@ $error=''; // Variable To Store Error Message
         //$email = mysqli_real_escape_string($email);
         //$password = mysqli__real_escape_string($password);
 // SQL query to fetch information of registerd users and finds user match.
-        $query = "select * from logins where password='".$password."' AND email='".$email."'";
-        echo $query;
+        $query = "select * from logins where pword='".$password."' AND email='".$email."'";
         $result = $db->query($query);
         if(isset($result)){
-            echo($result);
             $rows = $result->fetch_array();
-
+        echo $rows['email'];
             //  while () {
-            if ($rows . length == 1) {
+            if (count($rows)> 0) {
+
                 $_SESSION['login_user'] = $email; // Initializing Session
-                header("location: authors.php"); // Redirecting To Other Page
+                //header("location: authors.php"); // Redirecting To Other Page
             } else {
                 $error = "Email or Password is invalid";
             }
