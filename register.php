@@ -18,7 +18,9 @@
             <input type="text" name="username">
         </li>
 
-        <li></li>
+        <li>Password*: <br>
+            <input type="password" name="password">
+        </li>
     </ul>
 
 </form>
