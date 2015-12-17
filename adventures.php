@@ -67,9 +67,7 @@ $imageresult1 = mysql_query($sqlimage);
 
 while($row = $result->fetch_array()){
     echo "<a href='adventureinfo.php'>". $row['title'] . "</a>";
-    echo "<img src = " . $db['adventureAddress'] . "/>";
 
-*/
 
     // echo "<a href= \"$db[title]\">".$db['title'] . "</a>";
 }
