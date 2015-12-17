@@ -62,7 +62,7 @@ echo '<div id ="advresults">';
 $sql_query = "SELECT * FROM adventure";
 $result = $db->query($sql_query);
 
-$sqlimage  = "SELECT adventureAddress FROM photo where `photoID` = 000001";
+$sqlimage  = "SELECT adventureAddress FROM photo where `photoID` = 1";
 $imageresult1 = $db->query($sqlimage);
 
 while( $imageoutput = $imageresult1->fetch_array()){
