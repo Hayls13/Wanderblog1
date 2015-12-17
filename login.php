@@ -45,8 +45,9 @@ $error=''; // Variable To Store Error Message
 echo rows;
             //  while () {
             if (count($rows)> 0) {
+
                 $_SESSION['login_user'] = $email; // Initializing Session
-                header("location: authors.php"); // Redirecting To Other Page
+                //header("location: authors.php"); // Redirecting To Other Page
             } else {
                 $error = "Email or Password is invalid";
             }
