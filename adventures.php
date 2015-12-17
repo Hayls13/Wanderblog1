@@ -64,12 +64,12 @@ $result = $db->query($sql_query);
 
 $sqlimage  = "SELECT adventureAddress FROM photo where photoID = 1";
 $imageresult1 = $db->query($sqlimage);
-//echo $imageresult1;
+
 
 
 
 while( $imageoutput = $imageresult1->fetch_array()){
-   echo "<img src = '".$imageoutput['adventureAddress']."' />";
+   echo "<img src = '". $imageoutput['adventureAddress']."' />";
 }
 
 
