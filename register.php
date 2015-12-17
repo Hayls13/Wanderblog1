@@ -14,14 +14,14 @@
 <form action="" method=""post>
     <ul>
         <li>
-            Username*:<br>
+            <br>Username*:<br>
             <input type="text" name="username">
         </li>
 
-        <li>Password*: <br>
+        <li><br>Password*: <br>
             <input type="pword" name="pword">
         </li>
-        <li>Password again*: <br>
+        <li><br>Password again*: <br>
             <input type="pword" name="pword_again">
         </li>
         <li>
