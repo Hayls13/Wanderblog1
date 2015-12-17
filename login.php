@@ -19,7 +19,7 @@ else {
 }
 
 session_start(); // Starting Session
-echo "<p> starting session</p>";
+//echo "<p> starting session</p>";
 $error=''; // Variable To Store Error Message
 
     if (isset($_POST['email']) && isset($_POST['password'])) {
