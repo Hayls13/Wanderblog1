@@ -64,5 +64,9 @@ echo '</div>';
 
 $result->close();
 
+/*click search button
+    SELECT * FROM adventures WHERE title/description LIKE '%$input%'
+        try ajax live results if not new page for results*/
+
 ?>
 </div>
