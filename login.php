@@ -21,11 +21,12 @@ else {
 session_start(); // Starting Session
 echo "<p> starting session</p>";
 $error=''; // Variable To Store Error Message
-if (isset($_POST['enter'])) {
+
     if (isset($_POST['email']) && isset($_POST['password'])) {
         if (empty($_POST['email']) || empty($_POST['password'])) {
             $error = "Email or Password is invalid";
         }
+
 
 // Define $username and $password
         $email = $_POST['email'];
@@ -49,7 +50,7 @@ if (isset($_POST['enter'])) {
         mysqli_close($connection); // Closing Connection
 
     }
-}
+
 
 echo $error;
 
