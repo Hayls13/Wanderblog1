@@ -13,7 +13,7 @@ $db = new mysqli(
 );
 
 $login_session = $_SESSION['login_user'];
-$location = $db->
+
 ?>
 
 <div id="bio">
