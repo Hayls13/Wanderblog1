@@ -36,6 +36,9 @@
             Email*: <br>
             <input type="text" name="email"
         </li>
+        <li>
+            <input type="submit" value="Register"
+        </li>
 
 
 
