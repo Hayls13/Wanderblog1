@@ -5,6 +5,7 @@
 
 
 <?php
+include ("login.php");
 $db = new mysqli(
     "br-cdbr-azure-south-a.cloudapp.net",
     "beff680d970100",
