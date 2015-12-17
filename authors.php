@@ -6,6 +6,7 @@
 
 <?php
 $login_session = $_SESSION['login_user'];
+
 ?>
 
 <div id="bio">
