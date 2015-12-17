@@ -4,8 +4,8 @@
 <link rel="stylesheet" href="style.css">
 <title>Wanderblog</title>
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="/bootstrap/bootstrap/css/bootstrap.css"></script>
+<link rel="stylesheet" href="/bootstrap/bootstrap/css/bootstrap.min.css">
+<script src="/bootstrap/bootstrap/js/bootstrap.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
