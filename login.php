@@ -25,7 +25,8 @@ $error=''; // Variable To Store Error Message
     if (isset($_POST['email']) && isset($_POST['password'])) {
         if (empty($_POST['email']) || empty($_POST['password'])) {
             $error = "Email or Password is invalid";
-            echo "<a href='index.php'>". "</a>";
+            echo "<br>";
+            echo "<a href='index.php'>" . "Click here to try again" . "</a>";
         }
 
 
