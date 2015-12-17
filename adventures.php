@@ -29,7 +29,7 @@
 
 </body>
 
-<div id="adventures 2">
+<div id="adventures">
 <?php
 
 ini_set('display_errors', 1);
@@ -46,10 +46,17 @@ $db= new mysqli(
 if ($db->connect_errno) {
     die('connection failed :'.$db->connect_error);
 } else {
-    echo "<p> Connection sucessfulssss</p>";
+    echo "<p> Connection sucessfuls</p>";
 }
 
 
+/*$sql = "SELECT photoID FROM photo WHERE adventureID == 000001";
+$result = mysql_query($sql);
+while ($row = mysql_fetch_assoc($result)) {
+    ?>
+    <img src="<?php echo $row['your_image']; ?>"/>
+}
+*/
 
 echo '<div id ="advresults">';
 $sql_query = "SELECT * FROM adventure";
@@ -58,6 +65,7 @@ $result = $db->query($sql_query);
 
 while($row = $result->fetch_array()){
     echo "<a href='adventureinfo.php'>". $row['title'] . "</a>";
+    echo "<img src = " . $db['adventureAddress'] . "/>";
 
     // echo "<a href= \"$db[title]\">".$db['title'] . "</a>";
 }

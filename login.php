@@ -42,12 +42,12 @@ $error=''; // Variable To Store Error Message
         $result = $db->query($query);
         if(isset($result)){
             $rows = $result->fetch_array();
-echo rows;
+        //echo $rows['email'];
             //  while () {
             if (count($rows)> 0) {
 
                 $_SESSION['login_user'] = $email; // Initializing Session
-                //header("location: authors.php"); // Redirecting To Other Page
+                header("location: authors.php"); // Redirecting To Other Page
             } else {
                 $error = "Email or Password is invalid";
             }
