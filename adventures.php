@@ -78,9 +78,11 @@ while($row = $result->fetch_array()){
 
 }
 
+$result->close();
+
 echo '</div>';
 
-$result->close();
+
 
 /*click search button
     SELECT * FROM adventures WHERE title/description LIKE '%$input%'

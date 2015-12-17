@@ -35,32 +35,7 @@ else {
 
 ?>
 
-<!--<h1>Register</h1>
 
-<form action="" method=""post>
-    <ul>
-        <li>Password*: <br>
-            <input type="password" name="password">
-        </li>
-        <li>Password again*: <br>
-            <input type="password" name="password_again">
-        </li>
-        <li>
-            First Name*: <br>
-            <input type="text" name="First_Name"
-        </li>
-        <li>
-            Last Name: <br>
-            <input type="text" name="Last_Name"
-        </li>
-        <li>
-            Email*: <br>
-            <input type="text" name="email"
-        </li>
-        <li>
-            <input type="submit" value="Register"
-        </li>
-    </ul>
 
 </form>
 -->
