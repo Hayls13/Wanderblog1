@@ -7,9 +7,9 @@
 
 */
 
-if(empty($_post) === false){
-    $required_fields = array('username','pword','pword_again','first_name','email',);
-    echo '<pre>', print_r($_post,true),'</pre>';
+if(empty($_POST) === false){
+    $required_fields = array('username','pword','pword_again','first_name','email');
+    echo '<pre>', print_r($_POST,true),'</pre>';
 }
 
 
