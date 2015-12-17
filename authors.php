@@ -31,7 +31,7 @@ $locationr = $db->query($location);
 
     <?php
     while( $result = $locationr->fetch_array()){
-        echo "<h3>Location:". $result['country']."</h3>";
+        echo "<h3>Location:" . $result['country']."</h3>";
     }
     ?>
     <h3>Description: </h3>
