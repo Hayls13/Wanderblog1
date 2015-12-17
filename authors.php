@@ -44,6 +44,8 @@ $namer = $db->query($name);
     }
     ?>
 
+    <h3>User Type: </h3>
+
     <h3>Past Adventures: </h3>
 
     <h3><a href="logout.php">Logout</a></h3>
