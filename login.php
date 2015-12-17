@@ -38,6 +38,7 @@ if (isset($_POST['enter'])) {
         //$password = mysqli__real_escape_string($password);
 // SQL query to fetch information of registerd users and finds user match.
         $query = mysqli_query($connection, $db, "select * from logins where password='$password' AND email='$email'");
+        echo $query;
         $rows = mysqli_num_rows($query);
         if ($rows == 1) {
             $_SESSION['login_user'] = $email; // Initializing Session
@@ -46,6 +47,7 @@ if (isset($_POST['enter'])) {
             $error = "Email or Password is invalid";
         }
         mysqli_close($connection); // Closing Connection
+
     }
 }
 
