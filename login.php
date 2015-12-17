@@ -38,9 +38,9 @@ $error=''; // Variable To Store Error Message
         //$email = mysqli_real_escape_string($email);
         //$password = mysqli__real_escape_string($password);
 // SQL query to fetch information of registerd users and finds user match.
-        $query = mysqli_query($db, "select * from logins where password='$password' AND email='$email'");
+        $query = "select * from logins where password='$password' AND email='$email'";
         echo $query;
-        $rows = mysqli_num_rows($query);
+        $rows = $db->query($query);
         if ($rows == 1) {
             $_SESSION['login_user'] = $email; // Initializing Session
             header("location: authors.php"); // Redirecting To Other Page
