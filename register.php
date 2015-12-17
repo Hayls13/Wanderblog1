@@ -6,3 +6,8 @@
   echo "<p> Registration sent for verification</p>"
 
 */
+
+echo "hello guys";
+
+?>
+
