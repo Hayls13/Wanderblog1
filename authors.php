@@ -33,7 +33,7 @@ $namer = $db->query($name);
 
     <?php
     while( $fresult = $namer->fetch_array()){
-        echo "<h3>Name:" . $fresult['First_Name']['Last_Name'] ."</h3>";
+        echo "<h3>Name:" . $fresult['First_Name'] ."</h3>";
     }
     $namer->close();
     ?>
