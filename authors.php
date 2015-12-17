@@ -33,7 +33,7 @@ $fnamer = $db->query($fname);
 
     <?php
     while( $fresult = $fnamer->fetch_array()){
-        echo "<h3>Name:" . $result['First_Name']['Last_Name'] ."</h3>";
+        echo "<h3>Name:" . $fresult['First_Name']['Last_Name'] ."</h3>";
     }
     $fnamer->close();
     ?>
