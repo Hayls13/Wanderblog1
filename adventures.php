@@ -2,7 +2,7 @@
 
 
 <link rel="stylesheet" href="style.css">
-<title>Wanderblog</title>
+<title>Wanderblog 2</title>
 <head>
 <link rel="stylesheet" href="/bootstrap/bootstrap/css/bootstrap.min.css">
 <script src="/bootstrap/bootstrap/js/bootstrap.js"></script>
