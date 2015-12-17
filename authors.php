@@ -25,7 +25,9 @@ $locationr = $db->query($location);
     <!--placeholder for profile image if used-->
     <img src="https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300">
     <h3>Name: </h3><?php echo "<h4>" . $login_session . "<h4>"; ?>
-    <h3>Location: </h3><?php echo $locationr; ?>
+    while( $result = $locationr->fetch_array()){
+    echo <h3>Location: </h3><?php echo $result; ?>;
+    }
     <h3>Description: </h3>
     <h3>Past Adventures: </h3>
     <h3><a href="logout.php">Logout</a></h3>
