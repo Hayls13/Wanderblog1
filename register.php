@@ -35,7 +35,7 @@ else {
 
 ?>
 
-<h1>Register</h1>
+<!--<h1>Register</h1>
 
 <form action="" method=""post>
     <ul>
@@ -63,5 +63,5 @@ else {
     </ul>
 
 </form>
-
+-->
 
