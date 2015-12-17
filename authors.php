@@ -27,7 +27,7 @@ $locationr = $db->query($location);
     <h3>Name: </h3><?php echo "<h4>" . $login_session . "<h4>"; ?>
     <?php
     while( $result = $locationr->fetch_array()){
-        echo "<h3>Location:".$result."</h3>";
+        echo "<h3>Location:".$result['country']."</h3>";
     }
     ?>
     <h3>Description: </h3>
