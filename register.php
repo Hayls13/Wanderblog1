@@ -19,8 +19,27 @@
         </li>
 
         <li>Password*: <br>
-            <input type="password" name="password">
+            <input type="pword" name="pword">
         </li>
+        <li>Password again*: <br>
+            <input type="pword" name="pword_again">
+        </li>
+        <li>
+            First Name*: <br>
+            <input type="text" name="First_Name"
+        </li>
+        <li>
+            Last Name: <br>
+            <input type="text" name="Last_Name"
+        </li>
+        <li>
+            Email*: <br>
+            <input type="text" name="email"
+        </li>
+
+
+
+
     </ul>
 
 </form>
