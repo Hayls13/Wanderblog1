@@ -2,7 +2,7 @@
 
 
 <link rel="stylesheet" href="style.css">
-<title>Wanderblog 2</title>
+<title>Wanderblog</title>
 <head>
 <link rel="stylesheet" href="/bootstrap/bootstrap/css/bootstrap.min.css">
 <script src="/bootstrap/bootstrap/js/bootstrap.js"></script>
@@ -29,7 +29,7 @@
 
 </body>
 
-<div id="adventures">
+<div id="adventures 2">
 <?php
 
 ini_set('display_errors', 1);
