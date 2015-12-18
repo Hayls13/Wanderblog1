@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <title>Wanderblog</title>
 
-    <!-- Latest compiled and minified CSS -->
+    <!--CSS and JS files-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="/bootstrap/bootstrap/js/bootstrap.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -24,6 +24,7 @@
 <div id="header">
 <h2>WANDERBLOG</h2>
 
+    <!--top menu-->
 <ul id="mymenu">
     <li><button id="popup" >Login</button></li>
     <li><a href="adventures.php">Search</a></li>
@@ -32,7 +33,7 @@
 </div>
 
     <div id="popup">
-
+        <!--code for the popout login box-->
         <form action="login.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div.hide()">
             <h2>Login</h2>
@@ -46,6 +47,7 @@
 
 
     <div id="popupr">
+        <!--code for the popout register box-->
         <form action="register.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div.hide()">
             <h2>Register</h2>
