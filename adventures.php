@@ -75,7 +75,7 @@ while($row = $result->fetch_array()){
 
 $result->close();
 
-echo '</div>';
+echo "</div>";
 
 
 
