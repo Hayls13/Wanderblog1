@@ -69,7 +69,7 @@ while( $imageoutput = $imageresult1->fetch_array()){
 while($row = $result->fetch_array()){
     $title = $row['title'];
     echo "<a href='adventureinfo.php'>". $title . "</a>";
-    echo "<div id='photo''>" . $photo . "</div>";
+    echo "<div id='photos''>" . $photo . "</div>";
 
 }
 
@@ -85,5 +85,5 @@ echo '</div>';
 
 ?>
 
-    <style> photo {size: 300px;} </style>
+    <style> #photos {size: 300px;} </style>
 </div>
