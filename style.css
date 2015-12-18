@@ -107,4 +107,5 @@ button{
 #photos {
     height: 300px;
     width: 300px;
+    display: inline;
 }
