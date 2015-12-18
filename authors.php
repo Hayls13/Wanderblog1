@@ -38,24 +38,23 @@ $pastAdvr = $db->query($pastAdv);
     while( $resultn = $namer->fetch_array()){
         echo "<h3>Name: " . $resultn['First_Name'] . " " . $resultn[ 'Last_Name'] ."</h3>";
     }
-    ?>
 
 
-    <?php
+
+
     while( $result = $locationr->fetch_array()){
         echo "<h3>Location: " . $result['country']."</h3>";
     }
-    ?>
 
-    <?php
+
+
     while( $resultu = $usertyper->fetch_array()){
         echo "<h3>User Type: " . $resultu['userType']."</h3>";
     }
-    ?>
 
-    <?php
+
+
     while( $resultp = $pastAdvr->fetch_array()){
-        echo $pastAdvr;
         echo "<h3>Past Adventures: " . $resultp['adventureID']."</h3>";
     }
     ?>
@@ -65,10 +64,10 @@ $pastAdvr = $db->query($pastAdv);
 
     <?php
 
-    /*$locationr->close();
+    $locationr->close();
     $resultn->close();
     $usertyper->close();
-    $pastAdvr->close();*/
+    $pastAdvr->close();
 
 
     ?>
