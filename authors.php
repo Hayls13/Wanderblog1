@@ -36,7 +36,7 @@ $pastAdvr = $db->query($pastAdv);
 
     <?php
     while( $resultn = $namer->fetch_array()){
-        echo "<h3>Name: " . $resultn['First_Name'] . $resultn['Last_Name'] ."</h3>";
+        echo "<h3>Name: " . $resultn['First_Name'] . " " . $resultn[ 'Last_Name'] ."</h3>";
     }
     ?>
 
