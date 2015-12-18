@@ -1,5 +1,6 @@
 <?php
 
+$title = $row['title'];
 
 
 echo "test";
