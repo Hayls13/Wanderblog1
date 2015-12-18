@@ -53,6 +53,7 @@ $namer = $db->query($name);
     <?php
 
     $locationr->close();
+    $resultn->close();
 
 
     ?>
