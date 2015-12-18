@@ -24,7 +24,7 @@ $locationr = $db->query($location);
 $usertype = "SELECT userType FROM logins WHERE  email = '".$login_session."'";
 $usertyper = $db->query($usertype);
 
-$pastAdv = "SELECT userID, adventureID  FROM logins, adventure  WHERE  email = '".$login_session."'";
+$pastAdv = "SELECT userID, adventureID  FROM logins, adventure  JOIN  logins ON adventure.userID=logins.userID WHERE email = '".$login_session."'";
 $pastAdvr = $db->query($pastAdv);
 
 ?>
