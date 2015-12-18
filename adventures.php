@@ -18,7 +18,7 @@
     <!--when click script an action that will sort from highest to lowest votes-->
     <li><form action="adventures.php">
             Search Adventures:
-            <input type="search" name="googlesearch">
+            <input type="search" name="search">
             <input type="submit">
         </form>
     </li>
@@ -74,7 +74,8 @@ while( $imageoutput = $imageresult1->fetch_array()){
 
 
 while($row = $result->fetch_array()){
-    echo "<a href='adventureinfo.php'>". $row['title'] . "</a>";
+    $title = $row['title'];
+    echo "<a href='adventureinfo.php'>". $title . "</a>";
 
 }
 
