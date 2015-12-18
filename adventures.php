@@ -85,5 +85,5 @@ echo '</div>';
 
 ?>
 
-    <style> #photos {size: 300px;} </style>
+
 </div>
