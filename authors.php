@@ -15,12 +15,11 @@ $db = new mysqli(
 
 $login_session = $_SESSION['login_user'];
 
+$name = "SELECT First_Name, Last_Name FROM logins WHERE  email = '".$login_session."'";
+$namer = $db->query($name);
 
 $location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
 $locationr = $db->query($location);
-
-$name = "SELECT First_Name FROM logins WHERE  email = '".$login_session."'";
-$namer = $db->query($name);
 
 $usertype = "SELECT userType FROM logins WHERE  email = '".$login_session."'";
 $usertyper = $db->query($usertype);
@@ -37,7 +36,7 @@ $pastAdvr = $db->query($pastAdv);
 
     <?php
     while( $resultn = $namer->fetch_array()){
-        echo "<h3>Name:" . $resultn['First_Name'] ."</h3>";
+        echo "<h3>Name:" . $resultn['First_Name'] . $resultn['Last_Name'] ."</h3>";
     }
     ?>
 
