@@ -69,7 +69,7 @@ while( $imageoutput = $imageresult1->fetch_array()){
 while($row = $result->fetch_array()){
     $title = $row['title'];
     echo "<a href='adventureinfo.php'>". $title . "</a>";
-    echo $photo;
+    echo "<div id='photo''>" . $photo . "</div>";
 
 }
 
@@ -84,4 +84,6 @@ echo '</div>';
         try ajax live results if not new page for results*/
 
 ?>
+
+    <style> photo {size: 300px;} </style>
 </div>
