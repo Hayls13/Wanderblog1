@@ -65,6 +65,8 @@ echo $pastAdvr;
 
     <?php
 
+    htmlentities("<script>");
+
     $locationr->close();
     $resultn->close();
     $usertyper->close();
