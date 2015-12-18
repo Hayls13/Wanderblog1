@@ -70,7 +70,7 @@ $imageresult1 = $db->query($sqlimage);
 //prints out all adventures found in query
 while($row = $result->fetch_array()){
     while( $imageoutput = $imageresult1->fetch_array()){
-        $photo = $row['adventureAddress'];
+        $photo = $imageoutput['adventureAddress'];
         $title = $row['title'];
      echo "<a href='adventureinfo.php'>". $title . "</a>";
      echo "<div id='photos''>" . $photo . "</div>";
