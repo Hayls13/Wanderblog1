@@ -67,6 +67,7 @@ $pastAdvr = $db->query($pastAdv);
     $locationr->close();
     $resultn->close();
     $usertyper->close();
+    $pastAdvr->close();
 
 
     ?>
