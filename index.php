@@ -84,31 +84,31 @@
         <div class="item active">
             <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="adv1">
             <a href="#">Click here to view this adventure</a>
-            <a href="#">Click here to see more adventures</a>
+            <a href="adventures.php">Click here to see more adventures</a>
         </div>
 
         <div class="item">
             <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="adv2">
             <a href="#">Click here to view this adventure</a>
-            <a href="#">Click here to see more adventures</a>
+            <a href="adventures.php">Click here to see more adventures</a>
         </div>
 
         <div class="item">
             <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="adv3">
             <a href="#">Click here to view this adventure</a>
-            <a href="#">Click here to see more adventures</a>
+            <a href="adventures.php">Click here to see more adventures</a>
         </div>
 
         <div class="item">
             <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="adv4">
             <a href="#">Click here to view this adventure</a>
-            <a href="#">Click here to see more adventures</a>
+            <a href="adventures.php">Click here to see more adventures</a>
         </div>
 
         <div class="item">
             <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="adv5">
             <a href="#">Click here to view this adventure</a>
-            <a href="#">Click here to see more adventures</a>
+            <a href="adventures.php">Click here to see more adventures</a>
         </div>
     </div>
 
