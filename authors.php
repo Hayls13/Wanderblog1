@@ -24,6 +24,9 @@ $namer = $db->query($name);
 $usertype = "SELECT userType FROM logins WHERE  email = '".$login_session."'";
 $usertyper = $db->query($usertype);
 
+$pastAdv = "SELECT userID FROM logins WHERE  email = '".$login_session."'";
+$pastAdvr = $db->query($pastAdv);
+
 ?>
 
 <div id="bio">
@@ -50,7 +53,12 @@ $usertyper = $db->query($usertype);
     }
     ?>
 
-    <h3>Past Adventures: </h3>
+    <?php
+    while( $resultp = $pastAdvr->fetch_array()){
+        echo "<h3>Past Adventures:" . $resultp['adventureID']."</h3>";
+    }
+    ?>
+
 
     <h3><a href="logout.php">Logout</a></h3>
 
