@@ -65,10 +65,10 @@ $pastAdvr = $db->query($pastAdv);
 
     <?php
 
-    $locationr->close();
+    /*$locationr->close();
     $resultn->close();
     $usertyper->close();
-    $pastAdvr->close();
+    $pastAdvr->close();*/
 
 
     ?>
