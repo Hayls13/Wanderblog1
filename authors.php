@@ -25,7 +25,7 @@ $namer = $db->query($name);
 $usertype = "SELECT userType FROM logins WHERE  email = '".$login_session."'";
 $usertyper = $db->query($usertype);
 
-$pastAdv = "SELECT adventureID FROM adventure WHERE  userID = '".$login_session."'";
+$pastAdv = "SELECT adventureID, userID FROM adventure, logins WHERE  userID = '".$login_session."'";
 $pastAdvr = $db->query($pastAdv);
 
 ?>
