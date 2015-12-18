@@ -15,6 +15,7 @@ $db = new mysqli(
 
 $login_session = $_SESSION['login_user'];
 
+
 $location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
 $locationr = $db->query($location);
 
@@ -24,7 +25,7 @@ $namer = $db->query($name);
 $usertype = "SELECT userType FROM logins WHERE  email = '".$login_session."'";
 $usertyper = $db->query($usertype);
 
-$pastAdv = "SELECT userID FROM logins WHERE  email = '".$login_session."'";
+$pastAdv = "SELECT adventureID FROM adventure WHERE  email = '".$login_session."'";
 $pastAdvr = $db->query($pastAdv);
 
 ?>
