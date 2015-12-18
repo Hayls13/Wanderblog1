@@ -21,7 +21,7 @@ $locationr = $db->query($location);
 $name = "SELECT First_Name FROM logins WHERE  email = '".$login_session."'";
 $namer = $db->query($name);
 
-$usertype = "SELECT country FROM logins WHERE  email = '".$login_session."'";
+$usertype = "SELECT userType FROM logins WHERE  email = '".$login_session."'";
 $usertyper = $db->query($usertype);
 
 ?>
