@@ -55,7 +55,7 @@ $pastAdvr = $db->query($pastAdv);
 
     <?php
     while( $resultp = $pastAdvr->fetch_array()){
-        echo "<h3>Past Adventures:" . $resultp['userID AND adventureID']."</h3>";
+        echo "<h3>Past Adventures:" . $resultp['userID']."</h3>";
     }
     ?>
 
