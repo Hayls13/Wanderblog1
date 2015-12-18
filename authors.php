@@ -21,8 +21,8 @@ $locationr = $db->query($location);
 $name = "SELECT First_Name FROM logins WHERE  email = '".$login_session."'";
 $namer = $db->query($name);
 
-//$location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
-//$locationr = $db->query($location);
+$usertype = "SELECT country FROM logins WHERE  email = '".$login_session."'";
+$usertyper = $db->query($usertype);
 
 ?>
 
@@ -44,7 +44,11 @@ $namer = $db->query($name);
     }
     ?>
 
-    <h3>User Type: </h3>
+    <?php
+    while( $resultu = $usertyper->fetch_array()){
+        echo "<h3>User Type:" . $resultu['userType']."</h3>";
+    }
+    ?>
 
     <h3>Past Adventures: </h3>
 
@@ -54,6 +58,7 @@ $namer = $db->query($name);
 
     $locationr->close();
     $resultn->close();
+    $usertyper->close();
 
 
     ?>
