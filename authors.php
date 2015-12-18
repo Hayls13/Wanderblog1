@@ -18,7 +18,7 @@ $login_session = $_SESSION['login_user'];
 $location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
 $locationr = $db->query($location);
 
-$name = "SELECT First_Name AND Last_Name FROM logins WHERE  email = '".$login_session."'";
+$name = "SELECT First_Name FROM logins WHERE  email = '".$login_session."'";
 $namer = $db->query($name);
 
 //$location = "SELECT country FROM logins WHERE  email = '".$login_session."'";
