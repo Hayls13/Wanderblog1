@@ -73,9 +73,4 @@ $pastAdvr = $db->query($pastAdv);
 
     ?>
 
-</div>
-
-<div id="adv">
-
-</div>
 
