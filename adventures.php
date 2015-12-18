@@ -61,19 +61,25 @@ $sqlimage  = "SELECT adventureAddress FROM photo";
 $imageresult1 = $db->query($sqlimage);
 
 
-while( $imageoutput = $imageresult1->fetch_array()){
-   $photo = $row['adventureAddress'];
-}
+
+
+
+
+
 
 //prints out all adventures found in query
 while($row = $result->fetch_array()){
-    $title = $row['title'];
-    echo "<a href='adventureinfo.php'>". $title . "</a>";
-    echo "<div id='photos''>" . $row['adventureAddress'] . "</div>";
+    while( $imageoutput = $imageresult1->fetch_array()){
+        $photo = $row['adventureAddress'];
+        $title = $row['title'];
+     echo "<a href='adventureinfo.php'>". $title . "</a>";
+     echo "<div id='photos''>" . $photo . "</div>";
 
+    }
 }
 
 $result->close();
+$imageresult1->close();
 
 echo "</div>";
 
