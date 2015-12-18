@@ -1,5 +1,4 @@
 <?php
-include('adventures.php');
 
 $title = $row['title'];
 

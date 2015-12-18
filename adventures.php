@@ -50,32 +50,26 @@ if ($db->connect_errno) {
 }
 
 
-/*$sql = "SELECT photoID FROM photo WHERE adventureID == 000001";
-$result = mysql_query($sql);
-while ($row = mysql_fetch_assoc($result)) {
-    ?>
-    <img src="<?php echo $row['your_image']; ?>"/>
-}
-*/
-
+//query to find all adventures in db
 echo '<div id ="advresults">';
 $sql_query = "SELECT * FROM adventure";
 $result = $db->query($sql_query);
 
-$sqlimage  = "SELECT adventureAddress FROM photo where photoID = 1";
+
+//query to find all images in db
+$sqlimage  = "SELECT adventureAddress FROM photo";
 $imageresult1 = $db->query($sqlimage);
 
 
-
-
 while( $imageoutput = $imageresult1->fetch_array()){
-   echo "<img src = '". $imageoutput['adventureAddress']."' />";
+   $photo = $row['adventureAddress'];
 }
 
-
+//prints out all adventures found in query
 while($row = $result->fetch_array()){
     $title = $row['title'];
     echo "<a href='adventureinfo.php'>". $title . "</a>";
+    echo $photo;
 
 }
 
