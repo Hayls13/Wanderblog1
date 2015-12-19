@@ -52,7 +52,7 @@ $userType = $_POST['userType'];
         $email = stripslashes($email);
         $password = stripslashes($password);
 
-$query = "INSERT INTO register VALUES "
+//$query = "INSERT INTO register VALUES ";
 
 
 
