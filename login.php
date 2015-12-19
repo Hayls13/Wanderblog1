@@ -14,14 +14,14 @@ $db = new mysqli(
 if ($db->connect_errno) {
     die('connection failed :'.$db->connect_error);
 }
-else {
-    echo "<p> Connection sucessful</p>";
-}
+
 
 session_start(); // Starting Session
 //echo "<p> starting session</p>";
 $error=''; // Variable To Store Error Message
 
+
+    //check to ensure fields are not empty or null
     if (isset($_POST['email']) && isset($_POST['password'])) {
         if (empty($_POST['email']) || empty($_POST['password'])) {
             $error = "Email or Password is invalid";
@@ -51,6 +51,7 @@ $error=''; // Variable To Store Error Message
                 header("location: authors.php"); // Redirecting To Other Page
             } else {
                 $error = "Email or Password is invalid";
+                echo "<a href='index.php'>" . "Click here to try again" . "</a>";
 
             }
             $result->close();
