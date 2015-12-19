@@ -29,7 +29,7 @@ $error=''; // Variable To Store Error Message
             echo "<a href='index.php'>" . "Click here to try again" . "</a>";
         }
 
-
+        htmlentities("<script>");
 // Define $username and $password
         $email = $_POST['email'];
         $password = $_POST['password'];

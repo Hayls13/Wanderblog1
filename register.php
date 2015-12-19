@@ -7,6 +7,10 @@
 
 */
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 
 $db = new mysqli(
     "br-cdbr-azure-south-a.cloudapp.net",
@@ -21,6 +25,19 @@ if ($db->connect_errno) {
 else {
     echo "<p> Connection sucessful</p>";
 }
+
+session_start(); // Starting Session
+echo "start session";
+
+$error=''; // Variable To Store Error Message
+
+    if (isset($_POST['email']) && isset($_POST['password'])) {
+    if (empty($_POST['email']) || empty($_POST['password'])) {
+        $error = "Email or Password is invalid";
+        echo "<br>";
+        echo "<a href='index.php'>" . "Click here to try again" . "</a>";
+    }
+
 
 //if (empty($_POST['username']) || empty($_POST['password'])) {
 //$error = "Email or Password is invalid";
@@ -37,6 +54,5 @@ else {
 
 
 
-</form>
--->
+
 
