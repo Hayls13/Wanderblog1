@@ -31,26 +31,31 @@ echo "start session";
 
 $error=''; // Variable To Store Error Message
 
-    if (isset($_POST['email']) && isset($_POST['password'])) {
-    if (empty($_POST['email']) || empty($_POST['password'])) {
-        $error = "Email or Password is invalid";
-        echo "<br>";
-        echo "<a href='index.php'>" . "Click here to try again" . "</a>";
+    if (isset($_POST['fname']) && isset($_POST['lname']) && isset($_POST['email']) && isset($_POST['password']) && isset($_POST['userType'])) {
+    if (empty($_POST['fname']) || empty['lname'] || $_POST['email']) || empty($_POST['password']) || empty($_POST['userType'])) {
+        $error = "Please fill in all fields";
+        echo $error;
     }
 
-
-//if (empty($_POST['username']) || empty($_POST['password'])) {
-//$error = "Email or Password is invalid";
-
-
-//if(empty($_POST) === false){
-//    $required_fields = array('username','pword','pword_again','first_name','email');
-//    echo ;
-//}
+htmlentities("<script>");
 
 
 
-?>
+//set up variables
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
+$email = $_POST['email'];
+$password = $_POST['password'];
+$userType = $_POST['userType'];
+
+
+        $email = stripslashes($email);
+        $password = stripslashes($password);
+
+$query = "INSERT INTO register VALUES "
+
+
+
 
 
 
