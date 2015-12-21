@@ -32,7 +32,7 @@ echo "start session";
 $error=''; // Variable To Store Error Message
 
     if (isset($_POST['fname']) && isset($_POST['lname']) && isset($_POST['email']) && isset($_POST['password']) && isset($_POST['userType'])) {
-    if (empty($_POST['fname']) || empty['lname'] || $_POST['email']) || empty($_POST['password']) || empty($_POST['userType'])) {
+    if (empty($_POST['fname']) || empty($_POST['lname']) || empty($_POST['email']) || empty($_POST['password']) || empty($_POST['userType'])) {
         $error = "Please fill in all fields";
         echo $error;
     }
@@ -57,7 +57,9 @@ $userType = $_POST['userType'];
 
 $query = "INSERT INTO register(First_Name,Last_Name, email, pword, userType) VALUES . $fname . $lname . $email . $password . $userType";
 $result = $db->query($query);
-$rows = $result->fetch_array();
+
+while($row = $result->fetch_array()){
+
 
 //$query = "INSERT INTO register VALUES ";
 
