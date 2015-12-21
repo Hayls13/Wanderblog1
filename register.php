@@ -59,9 +59,10 @@ $query = "INSERT INTO register(First_Name,Last_Name, email, pword, userType) VAL
 $result = $db->query($query);
 
 while($row = $result->fetch_array()){
+    echo "your information has been registered, you will be verified shortly";
+}
 
 
-//$query = "INSERT INTO register VALUES ";
 
 
 
