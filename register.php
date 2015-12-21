@@ -36,6 +36,7 @@ $error=''; // Variable To Store Error Message
         $error = "Please fill in all fields";
         echo $error;
     }
+    }
 
 htmlentities("<script>");
 
@@ -51,6 +52,12 @@ $userType = $_POST['userType'];
 
         $email = stripslashes($email);
         $password = stripslashes($password);
+        $fname = stripslashes($fname);
+        $lname = stripslashes($lname);
+
+$query = "INSERT INTO register(First_Name,Last_Name, email, pword, userType) VALUES . $fname . $lname . $email . $password . $userType";
+$result = $db->query($query);
+$rows = $result->fetch_array();
 
 //$query = "INSERT INTO register VALUES ";
 
