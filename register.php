@@ -1,11 +1,5 @@
 <?php
 
-/*
-  $sql = "INSERT INTO register VALUES ('$firstname','$lastname', '$email', '$password', '$usertype');
- if ($result = $db->query($sql)){
-  echo "<p> Registration sent for verification</p>";
-
-*/
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -31,12 +25,13 @@ echo "start session";
 
 $error=''; // Variable To Store Error Message
 
-    if (isset($_POST['fname']) && isset($_POST['lname']) && isset($_POST['email']) && isset($_POST['password']) && isset($_POST['userType'])) {
+
+
     if (empty($_POST['fname']) || empty($_POST['lname']) || empty($_POST['email']) || empty($_POST['password']) || empty($_POST['userType'])) {
         $error = "Please fill in all fields";
         echo $error;
     }
-    }
+
 
 htmlentities("<script>");
 
@@ -55,8 +50,11 @@ $userType = $_POST['userType'];
         $fname = stripslashes($fname);
         $lname = stripslashes($lname);
 
-$query = "INSERT INTO register(First_Name,Last_Name, email, pword, userType) VALUES . $fname . $lname . $email . $password . $userType";
+$query = "INSERT INTO register(First_Name,Last_Name, email, pword, userType)
+              VALUES ($fname, $lname, $email, $password, $userType)";
 $result = $db->query($query);
+
+
 
 while($row = $result->fetch_array()){
     echo "your information has been registered, you will be verified shortly";

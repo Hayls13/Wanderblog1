@@ -17,7 +17,7 @@ if ($db->connect_errno) {
 
 
 session_start(); // Starting Session
-//echo "<p> starting session</p>";
+
 $error=''; // Variable To Store Error Message
 
 
@@ -33,7 +33,7 @@ $error=''; // Variable To Store Error Message
 // Define $username and $password
         $email = $_POST['email'];
         $password = $_POST['password'];
-// Establishing Connection with Server by passing server_name, user_id and password as a parameter
+
 // To protect MySQL injection for Security purpose
         $email = stripslashes($email);
         $password = stripslashes($password);
