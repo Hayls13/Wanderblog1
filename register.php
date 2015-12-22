@@ -26,11 +26,12 @@ echo "start session";
 $error=''; // Variable To Store Error Message
 
 
-
-    if (empty($_POST['fname']) || empty($_POST['lname']) || empty($_POST['email']) || empty($_POST['password']) /*|| empty($_POST['userType'])*/) {
+if(isset($_POST['enter'])) {
+    if (empty($_POST['fname']) || empty($_POST['lname']) || empty($_POST['email']) || empty($_POST['password'])) {
         $error = "Please fill in all fields";
         echo $error;
     }
+}
 
 
 htmlentities("<script>");
