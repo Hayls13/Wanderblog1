@@ -59,7 +59,8 @@ $result = $db->query($query);
         $_SESSION['email'] = $email;
         $_SESSION['pword'] = $password;
         echo "your information has been registered, you will be verified shortly";
-        echo "<a href='index.php'>" . "Home" . "</a>";
+        echo "<br>";
+        echo "<a href='index.php'>" . " Home " . "</a>";
     } else {
         echo "error";
     }
