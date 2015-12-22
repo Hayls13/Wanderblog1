@@ -43,7 +43,7 @@ $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $email = $_POST['email'];
 $password = $_POST['pword'];
-$userType = $_POST['userType'];
+//$userType = $_POST['userType'];
 
 
         $email = stripslashes($email);
@@ -51,8 +51,8 @@ $userType = $_POST['userType'];
         $fname = stripslashes($fname);
         $lname = stripslashes($lname);
 
-$query = "INSERT INTO register(First_Name,Last_Name, email, pword, userType)
-              VALUES ($fname, $lname, $email, $password, $userType)";
+$query = "INSERT INTO register(First_Name,Last_Name, email, pword)
+              VALUES ($fname, $lname, $email, $password)";
 $result = $db->query($query);
 
 
