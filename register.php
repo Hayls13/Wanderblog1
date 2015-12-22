@@ -49,6 +49,7 @@ $password = htmlentities($_POST['pword']);
 $query = "INSERT INTO register(First_Name,Last_Name, email, pword)
               VALUES ('$fname', '$lname', '$email', '$password')";
 $result = $db->query($query);
+echo "query";
 
 if(isset($result)) {
     $rows = $result->fetch_array();
