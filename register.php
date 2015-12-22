@@ -43,7 +43,7 @@ $password = htmlentities($_POST['pword']);
         $password = stripslashes($password);
         $fname = stripslashes($fname);
         $lname = stripslashes($lname);
-
+echo "test";
 $query = "INSERT INTO register(First_Name,Last_Name, email, pword)
               VALUES ('$fname', '$lname', '$email', '$password')";
 $result = $db->query($query);
