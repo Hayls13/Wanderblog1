@@ -65,7 +65,7 @@ if(isset($result)) {
 }
 
 
-$db->close();
+$result->close();
 ?>
 
 
