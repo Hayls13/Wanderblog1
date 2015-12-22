@@ -58,6 +58,7 @@ $result = $db->query($query);
         $_SESSION['lname'] = $lname;
         $_SESSION['email'] = $email;
         $_SESSION['pword'] = $password;
+        echo "<p>" . "Thank you " . $fname . "</p>";
         echo "your information has been registered, you will be verified shortly";
         echo "<br>";
         echo "<a href='index.php'>" . " Home " . "</a>";
