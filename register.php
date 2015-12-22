@@ -33,16 +33,11 @@ if(isset($_POST['enter'])) {
     }
 }
 
-
-htmlentities("<script>");
-
-
-
 //set up variables
-$fname = $_POST['fname'];
-$lname = $_POST['lname'];
-$email = $_POST['email'];
-$password = $_POST['pword'];
+$fname = htmlentities($_POST['fname']);
+$lname = htmlentities($_POST['lname']);
+$email = htmlentities($_POST['email']);
+$password = htmlentities($_POST['pword']);
 //$userType = $_POST['userType'];
 
 
@@ -57,7 +52,10 @@ $result = $db->query($query);
 
 if(isset($result)) {
     $rows = $result->fetch_array();
-
+    $_SESSION['fname'] = $fname;
+    $_SESSION['lname'] = $lname;
+    $_SESSION['email'] = $email;
+    $_SESSION['pword'] = $password;
 
     if (count($rows) > 0) {
         echo "your information has been registered, you will be verified shortly";
