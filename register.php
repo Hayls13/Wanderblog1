@@ -30,8 +30,6 @@ if(isset($_POST['enter'])) {
     if (empty($_POST['fname']) || empty($_POST['lname']) || empty($_POST['email']) || empty($_POST['password'])) {
         $error = "Please fill in all fields";
         echo $error;
-    }
-}
 
 //set up variables
 $fname = htmlentities($_POST['fname']);
@@ -47,7 +45,7 @@ $password = htmlentities($_POST['pword']);
         $lname = stripslashes($lname);
 
 $query = "INSERT INTO register(First_Name,Last_Name, email, pword)
-              VALUES ('".$fname."', '".$lname."', '".$email."', '".$password."')";
+              VALUES ('$fname', '$lname', '$email', '$password')";
 $result = $db->query($query);
 echo " . $result . ";
 
@@ -67,7 +65,9 @@ if(isset($result)) {
 }
 
 
-$result->close();
+$result->close();}
+}
+
 ?>
 
 
