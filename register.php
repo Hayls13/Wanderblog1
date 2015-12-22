@@ -52,8 +52,6 @@ $query = "INSERT INTO register(First_Name,Last_Name, email, pword)
 $result = $db->query($query);
 echo $result ;
 
-//if(isset($result)) {
-  //  $rows = $result->fetch_array();
 
 
     if (count($result) > 0) {
@@ -65,10 +63,9 @@ echo $result ;
     } else {
         echo "error";
     }
-//}
 
 
-$result->close();
+
 ?>
 
 
