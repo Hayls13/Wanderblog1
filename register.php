@@ -53,12 +53,13 @@ echo " . $result . ";
 
 if(isset($result)) {
     $rows = $result->fetch_array();
-    $_SESSION['fname'] = $fname;
-    $_SESSION['lname'] = $lname;
-    $_SESSION['email'] = $email;
-    $_SESSION['pword'] = $password;
+
 
     if (count($rows) > 0) {
+        $_SESSION['fname'] = $fname;
+        $_SESSION['lname'] = $lname;
+        $_SESSION['email'] = $email;
+        $_SESSION['pword'] = $password;
         echo "your information has been registered, you will be verified shortly";
     } else {
         echo "error";
