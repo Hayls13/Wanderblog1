@@ -53,10 +53,10 @@ $result = $db->query($query);
 echo $result ;
 
 //if(isset($result)) {
-    $rows = $result->fetch_array();
+  //  $rows = $result->fetch_array();
 
 
-    if (count($rows) > 0) {
+    if (count($result) > 0) {
         $_SESSION['fname'] = $fname;
         $_SESSION['lname'] = $lname;
         $_SESSION['email'] = $email;
