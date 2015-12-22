@@ -62,7 +62,7 @@ if($result == true){
 }
 
 
-$result->close();
+$db->close();
 ?>
 
 
