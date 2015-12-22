@@ -57,7 +57,7 @@ $result = $db->query($query);
 
 
 
-if($result == true){
+while($row = $result->fetch_array()){
     echo "your information has been registered, you will be verified shortly";
 } else {
     echo "error";
