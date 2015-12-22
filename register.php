@@ -59,7 +59,7 @@ if(isset($result)) {
     $rows = $result->fetch_array();
 
 
-    if ($rows > 0) {
+    if (count($rows > 0)) {
         echo "your information has been registered, you will be verified shortly";
     } else {
         echo "error";
