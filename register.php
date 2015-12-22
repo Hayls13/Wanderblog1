@@ -27,7 +27,7 @@ $error=''; // Variable To Store Error Message
 
 
 
-    if (empty($_POST['fname']) || empty($_POST['lname']) || empty($_POST['email']) || empty($_POST['password']) || empty($_POST['userType'])) {
+    if (empty($_POST['fname']) || empty($_POST['lname']) || empty($_POST['email']) || empty($_POST['password']) /*|| empty($_POST['userType'])*/) {
         $error = "Please fill in all fields";
         echo $error;
     }
