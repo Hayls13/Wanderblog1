@@ -55,9 +55,11 @@ $query = "INSERT INTO register(First_Name,Last_Name, email, pword)
               VALUES ($fname, $lname, $email, $password)";
 $result = $db->query($query);
 
+if(isset($result)){
+$rows = $result->fetch_array();
 
 
-while($row = $result->fetch_array()){
+if($rows > 0){
     echo "your information has been registered, you will be verified shortly";
 } else {
     echo "error";
