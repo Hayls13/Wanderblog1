@@ -47,11 +47,11 @@ $password = htmlentities($_POST['pword']);
 $query = "INSERT INTO register(First_Name,Last_Name, email, pword)
               VALUES ('$fname', '$lname', '$email', '$password')";
 $result = $db->query($query);
-echo " . $result . ";
+echo " test1 ";
 
 if(isset($result)) {
     $rows = $result->fetch_array();
-
+        echo "test2";
 
     if (count($rows) > 0) {
         $_SESSION['fname'] = $fname;
