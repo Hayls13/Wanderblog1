@@ -59,6 +59,8 @@ $result = $db->query($query);
 
 if($result == true){
     echo "your information has been registered, you will be verified shortly";
+} else {
+    echo "error";
 }
 
 
