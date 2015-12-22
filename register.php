@@ -52,7 +52,7 @@ $password = $_POST['pword'];
         $lname = stripslashes($lname);
 
 $query = "INSERT INTO register(First_Name,Last_Name, email, pword)
-              VALUES ($fname, $lname, $email, $password)";
+              VALUES ('$fname', '$lname', '$email', '$password')";
 $result = $db->query($query);
 
 if(isset($result)) {
