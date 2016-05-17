@@ -1,0 +1,111 @@
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#header{
+    background-color: slategrey;
+    padding: 3px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+#header a{
+    float: left;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+}
+
+#mymenu a{
+    color: white;
+
+}
+
+
+button {
+    float: right;
+    background-color: #d9edf7;
+}
+
+#bio h3{
+    align: center;
+}
+
+#bio img{
+    float: left;
+    margin-right: 15px;
+}
+
+#popup{
+    width: 50%;
+    height: 50%;
+    padding:10px 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #d9edf7;
+
+
+}
+
+img#close{
+    right: -14px;
+    top: -14px;
+    cursor: pointer;
+}
+
+button{
+    width: 65px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: mintcream;
+    color: #000;
+    cursor: pointer;
+
+
+}
+
+#abc {
+    width: 100%;
+    height: 100%;
+    opacity: .95;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    background-color: #313131;
+    overflow: auto;
+
+}
+
+#submit{
+    display: block;
+}
+
+#advmenu ul{
+    display: inline;
+}
+
+#adventures a{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    background-color: mintcream;
+}
+
+.advhead {
+    text-align: center;
+}
+
+#photos {
+    height: 300px;
+    width: 300px;
+    display: inline;
+}
