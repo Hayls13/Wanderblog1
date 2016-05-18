@@ -33,22 +33,31 @@
                 <h1> Sign Up </h1>
                 <p>
                     <label for="emailS" class="email" data-icon="u">Your Email</label>
-                    <input id="emailS" name="emailS" required="required" type="text" placeholder="email" />
+                    <input id="emailS" name="emailS" required="required" type="text" placeholder=" Email" />
                 </p>
                 <p>
                     <label for="FName" class="Fname" data-icon="f">First Name</label>
-                    <input id="Fname" name="Fname" required="required" type="text" placeholder="First Name" />
+                    <input id="Fname" name="Fname" required="required" type="text" placeholder=" First Name" />
                 </p>
                 <p>
                     <label for="LName" class="Lname" data-icon="l">Last Name</label>
-                    <input id="Lname" name="Lname" required="required" type="text" placeholder="Last Name" />
+                    <input id="Lname" name="Lname" required="required" type="text" placeholder=" Last Name" />
                 </p>
                 <p>
                     <label for="PwordS" class="PwodS" data-icon="p">Password </label>
-                    <input id="PwordS" name="PwordS" required="required" type="text" placeholder="Password" />
+                    <input id="PwordS" name="PwordS" required="required" type="text" placeholder=" Password" />
+                </p>
+                <p class="signin button">
+                    <input type="submit" value="Sign Up"/>
+                </p>
+
+                <p class="change_link">
+                    Already a member?
+                    <a href="#tologin" class="to_register"> Go and log in </a>
                 </p>
             </form>
         </div>
+        
     </div>
     </div>
 
