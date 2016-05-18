@@ -8,7 +8,7 @@
         <a class="hiddenanchor" id="tologin"></a>
     <div id="wrapper">
         <div id="login" class="animate form">
-            <form action="..." autocomplete="on">
+            <form action="login.css" autocomplete="on">
                   <h1>Log In</h1>
                   <p>
                       <label for="email" class="email" data-icon="u" > Your email </label>
@@ -57,7 +57,7 @@
                 </p>
             </form>
         </div>
-        
+
     </div>
     </div>
 
