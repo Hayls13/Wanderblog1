@@ -35,7 +35,18 @@
                     <label for="emailS" class="email" data-icon="u">Your Email</label>
                     <input id="emailS" name="emailS" required="required" type="text" placeholder="email" />
                 </p>
-                
+                <p>
+                    <label for="FName" class="Fname" data-icon="f">First Name</label>
+                    <input id="Fname" name="Fname" required="required" type="text" placeholder="First Name" />
+                </p>
+                <p>
+                    <label for="LName" class="Lname" data-icon="l">Last Name</label>
+                    <input id="Lname" name="Lname" required="required" type="text" placeholder="Last Name" />
+                </p>
+                <p>
+                    <label for="PwordS" class="PwodS" data-icon="p">Password </label>
+                    <input id="PwordS" name="PwordS" required="required" type="text" placeholder="Password" />
+                </p>
             </form>
         </div>
     </div>
