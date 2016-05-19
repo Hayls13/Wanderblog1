@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="/bootstrap/bootstrap/js/bootstrap.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="/carousel.js"></script>
     <script src="/jquery.js"></script>
 
