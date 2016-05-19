@@ -1,7 +1,9 @@
 <?php
 ?>
 
-<HMTML>
+<HTML>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <div id="container">
         <a class="hiddenanchor" id="toregister"></a>
@@ -85,4 +87,4 @@
 
 
 
-</HMTML>
+</HTML>
