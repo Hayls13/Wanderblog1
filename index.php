@@ -81,7 +81,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="https://placeholdit.imgix.net/~text?txtsize=100&txt=1200%C3%97800&w=1200&h=800" alt="adv1">
+            <img src="photos/london.jpg" alt="adv1">
             <a href="#">Click here to view this adventure</a>
             <a href="adventures.php">Click here to see more adventures</a>
         </div>
