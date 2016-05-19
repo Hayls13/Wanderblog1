@@ -4,7 +4,7 @@
 <HTML>
 
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="login" />
 </head>
 
 <body>
@@ -13,7 +13,7 @@
         <a class="hiddenanchor" id="tologin"></a>
     <div id="wrapper">
         <div id="login" class="animate form">
-            <form action="login.css" autocomplete="on">
+            <form action="#" autocomplete="on">
                   <h1>Log In</h1>
                   <p>
                       <label for="email" class="email" data-icon="u" > Your email </label>
@@ -34,7 +34,7 @@
         </div>
 
         <div id="register" class="animate form">
-            <form action="..." autocomplete="on">
+            <form action="#" autocomplete="on">
                 <h1> Sign Up </h1>
                 <p>
                     <label for="emailS" class="email" data-icon="u">Your Email</label>
