@@ -3,7 +3,7 @@
 
 <HTML>
 
-<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
 
     <div id="container">
         <a class="hiddenanchor" id="toregister"></a>
