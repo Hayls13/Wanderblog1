@@ -14,7 +14,7 @@
     z-index: 22;
 }
 
-#wrapper h1 {
+#container h1 {
     background: -webkit-repeating-linear-gradient(-45deg,
     rgb(18, 83, 93),
     rgb(18, 83, 93) 20px,
@@ -25,7 +25,7 @@
     -webkit-background-clip: text;
 }
 
-#wrapper h1:after{
+#container h1:after{
     content: ' ';
     display: block;
     width: 100%;
@@ -39,3 +39,18 @@
         rgba(147,184,189,0.8) 79%,
         rgba(147,184,189,0) 100%);
 }
+
+::-webkit-input-placeholder {
+    color: rgb(190,188,188);
+    font-style: italic;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+    color:rgb(190,188,188);
+    font-style: italic;
+}
+input{
+    outline: none;
+}
+
