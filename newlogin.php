@@ -3,8 +3,11 @@
 
 <HTML>
 
+<head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
 
+<body>
     <div id="container">
         <a class="hiddenanchor" id="toregister"></a>
         <a class="hiddenanchor" id="tologin"></a>
@@ -62,7 +65,7 @@
 
     </div>
     </div>
-
+</body>
 
 
 
