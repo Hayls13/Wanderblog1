@@ -54,3 +54,23 @@ input{
     outline: none;
 }
 
+#container input:not([type="checkbox"]){
+    width: 92%;
+    margin-top: 4px;
+    padding: 10px 5px 10px 32px;
+    border: 1px solid rgb(178,178,178);
+    box-sizing: content-box;
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px 0px rgba(168,168,168,0.6)inset;
+    transition: all 0.2s linear;
+}
+
+#container input:not([type="checkbox"]):active,
+#container input:not([type="checkbox"]):focus{
+    border: 1px solid rgba(91,90,90,0.7);
+    background: rgba(238,236,240,0.2);
+    box-shadow: 0px 1px 4px 0px rgba(168,168,168,0.9) inset;
+}
+
+
+
