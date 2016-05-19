@@ -6,23 +6,11 @@
     font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
 }
 
-/** fonts used for the icons **/
-@font-face {
-    font-family: 'FontomasCustomRegular';
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'FranchiseRegular';
-    font-weight: normal;
-    font-style: normal;
-
-}
 a.hiddenanchor{
     display: none;
 }
 /** The wrapper that will contain our two forms **/
-#wrapper{
+#container{
     width: 60%;
     right: 0px;
     min-height: 560px;
@@ -33,12 +21,12 @@ a.hiddenanchor{
 /**** Styling the form elements **/
 
 /**** general text styling ****/
-#wrapper a{
+#container a{
     color: rgb(95, 155, 198);
     text-decoration: underline;
 }
 
-#wrapper h1{
+#container h1{
     font-size: 48px;
     color: rgb(6, 106, 117);
     padding: 2px 0 10px 0;
@@ -48,7 +36,7 @@ a.hiddenanchor{
     padding-bottom: 30px;
 }
 /** For the moment only webkit supports the background-clip:text; */
-#wrapper h1{
+#container h1{
     background: -webkit-repeating-linear-gradient(-45deg,
     rgb(18, 83, 93) ,
     rgb(18, 83, 93) 20px,
@@ -58,7 +46,7 @@ a.hiddenanchor{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-#wrapper h1:after{
+#container h1:after{
     content: ' ';
     display: block;
     width: 100%;
@@ -72,13 +60,13 @@ a.hiddenanchor{
     background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
 }
 
-#wrapper p{
+#container p{
     margin-bottom:15px;
 }
-#wrapper p:first-child{
+#container p:first-child{
     margin: 0px;
 }
-#wrapper label{
+#container label{
     color: rgb(64, 92, 96);
     position: relative;
 }
@@ -99,7 +87,7 @@ input {
 }
 
 /* all the input except submit and checkbox */
-#wrapper input:not([type="checkbox"]){
+#container input:not([type="checkbox"]){
     width: 92%;
     margin-top: 4px;
     padding: 10px 5px 10px 32px;
@@ -119,8 +107,8 @@ input {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
-#wrapper input:not([type="checkbox"]):active,
-#wrapper input:not([type="checkbox"]):focus{
+#container input:not([type="checkbox"]):active,
+#container input:not([type="checkbox"]):focus{
     border: 1px solid rgba(91, 90, 90, 0.7);
     background: rgba(238, 236, 240, 0.2);
     -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
@@ -140,7 +128,7 @@ input {
 }
 
 /*styling both submit buttons */
-#wrapper p.button input{
+#container p.button input{
     width: 30%;
     cursor: pointer;
     background: rgb(61, 157, 179);
@@ -168,11 +156,11 @@ input {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
 }
-#wrapper p.button input:hover{
+#container p.button input:hover{
     background: rgb(74, 179, 198);
 }
-#wrapper p.button input:active,
-#wrapper p.button input:focus{
+#container p.button input:active,
+#container p.button input:focus{
     background: rgb(40, 137, 154);
     position: relative;
     top: 1px;
@@ -251,7 +239,7 @@ p.change_link{
     rgb(247, 247, 247) 30px
     );
 }
-#wrapper p.change_link a {
+#container p.change_link a {
     display: inline-block;
     font-weight: bold;
     background: rgb(247, 248, 241);
@@ -269,12 +257,12 @@ p.change_link{
     -ms-transition: all 0.4s  linear;
     transition: all 0.4s  linear;
 }
-#wrapper p.change_link a:hover {
+#container p.change_link a:hover {
     color: rgb(57, 191, 215);
     background: rgb(247, 247, 247);
     border: 1px solid rgb(74, 179, 198);
 }
-#wrapper p.change_link a:active{
+#container p.change_link a:active{
     position: relative;
     top: 1px;
 }
