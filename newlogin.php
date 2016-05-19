@@ -33,7 +33,7 @@
                   </p>
                   <p class="change_link">
                       Not a member yet?
-                      <a href="#register" class="to_register">Join Us</a>
+                      <a href="#register" class="register">Join Us</a>
                   </p>
                 </form>
         </div>
