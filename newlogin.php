@@ -21,11 +21,11 @@
             <form action="#" autocomplete="on">
                   <h1>Log In</h1>
                   <p>
-                      <label for="email" class="email" data-icon="u" > Your email </label>
+                      <label for="email" class="email" > Your email </label>
                       <input id="email" name="email" required="required" type="text" placeholder="your email" />
                   </p>
                   <p>
-                      <label for="password" class="pword" data-icon="p">Your Password </label>
+                      <label for="password" class="pword" >Your Password </label>
                       <input id="password" name="password" required="required" type="password" placeholder="..." />
                   </p>
                   <p class="login button">
@@ -42,19 +42,19 @@
             <form action="#" autocomplete="on">
                 <h1> Sign Up </h1>
                 <p>
-                    <label for="emailS" class="email" data-icon="u">Your Email</label>
+                    <label for="emailS" class="email" >Your Email</label>
                     <input id="emailS" name="emailS" required="required" type="text" placeholder=" Email" />
                 </p>
                 <p>
-                    <label for="FName" class="Fname" data-icon="f">First Name</label>
+                    <label for="FName" class="Fname" >First Name</label>
                     <input id="Fname" name="Fname" required="required" type="text" placeholder=" First Name" />
                 </p>
                 <p>
-                    <label for="LName" class="Lname" data-icon="l">Last Name</label>
+                    <label for="LName" class="Lname" >Last Name</label>
                     <input id="Lname" name="Lname" required="required" type="text" placeholder=" Last Name" />
                 </p>
                 <p>
-                    <label for="PwordS" class="PwodS" data-icon="p">Password </label>
+                    <label for="PwordS" class="PwodS">Password </label>
                     <input id="PwordS" name="PwordS" required="required" type="text" placeholder=" Password" />
                 </p>
                 <p class="signin button">
