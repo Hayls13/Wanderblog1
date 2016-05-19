@@ -4,7 +4,7 @@
 <HTML>
 
 <head>
-<link rel="stylesheet" type="text/css" href="login" />
+<link rel="stylesheet" type="text/css" href="login.css" />
 </head>
 
 <body>
