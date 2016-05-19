@@ -17,7 +17,7 @@
                   <h1>Log In</h1>
                   <p>
                       <label for="email" class="email" data-icon="u" > Your email </label>
-                      <input id="email" name="email" required="required" type="tezt" placeholder="your email" />
+                      <input id="email" name="email" required="required" type="text" placeholder="your email" />
                   </p>
                   <p>
                       <label for="password" class="pword" data-icon="p">Your Password </label>
