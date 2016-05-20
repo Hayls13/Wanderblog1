@@ -61,9 +61,13 @@
             <label for="pswd" class="ui-hidden-accessible">Password:</label>
             <input id="pword" name="pword" placeholder="password" type="password">
                 <br>
+                    <label class="reader">
+                        <input type="radio" name="usertype" value="reader" checked> Reader
+                    </label>
+                    <label class="author">
+                        <input type="radio" name="usertype" value="author"> Author
+                    </label>
 
-                    <input type="radio" name="usertype" value="reader" checked> Reader
-                    <input type="radio" name="usertype" value="author"> Author
             <br><input type="submit" value="enter">
         </form>
     </div>
