@@ -87,12 +87,12 @@
         </div>
 
         <div class="item">
-            <img src="/cambodia.JPG" alt="adv2">
+            <img src="photos/cambodia.JPG" alt="adv2">
             <a href="#">Click here to view this adventure</a>
         </div>
 
         <div class="item">
-            <img src="/valencia.JPG" alt="adv3">
+            <img src="photos/valencia.jpg" alt="adv3">
             <a href="#">Click here to view this adventure</a>
         </div>
 
