@@ -72,6 +72,9 @@
         </form>
     </div>
 
+<script>
+$('.carousel').carousel();
+</script>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -80,42 +83,42 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <img class="adv1" src="photos/london.JPG" alt="adv1">
-            <div class="container">
+            <div class="carousel-caption">
             <a href="#">Click here to view this adventure</a>
         </div>
     </div>
 
         <div class="item">
             <img class="adv2" src="photos/cambodia.JPG" alt="adv2">
-                 <div class="container">
+                 <div class="carousel-caption">
                      <a href="#">Click here to view this adventure</a>
                  </div>
         </div>
 
         <div class="item">
             <img class="adv3" src="photos/valencia.jpg" alt="adv3">
-                <div class="container">
+                <div class="carousel-caption">
                   <a href="#">Click here to view this adventure</a>
                  </div>
         </div>
 
         <div class="item">
             <img class="adv4" src="photos/turkey.jpg" alt="adv4">
-                <div class="container">
+                <div class="carousel-caption">
                  <a href="#">Click here to view this adventure</a>
                 </div>
         </div>
 
         <div class="item">
             <img class="adv5" src="photos/bangkok.JPG" alt="adv5">
-                <div class="container">
+                <div class="carousel-caption">
                    <a href="#">Click here to view this adventure</a>
                 </div>
         </div>
