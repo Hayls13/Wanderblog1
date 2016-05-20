@@ -82,30 +82,41 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="photos/london.JPG" alt="adv1">
-            <a href="#">Click here to view this adventure</a>
-        </div>
-
-        <div class="item">
-            <img src="photos/cambodia.JPG" alt="adv2">
-            <a href="#">Click here to view this adventure</a>
-        </div>
-
-        <div class="item">
-            <img src="photos/valencia.jpg" alt="adv3">
-            <a href="#">Click here to view this adventure</a>
-        </div>
-
-        <div class="item">
-            <img src="photos/turkey.jpg" alt="adv4">
-            <a href="#">Click here to view this adventure</a>
-        </div>
-
-        <div class="item">
-            <img src="photos/bangkok.JPG" alt="adv5">
+            <img class="adv1" src="photos/london.JPG" alt="adv1">
+            <div class="container">
             <a href="#">Click here to view this adventure</a>
         </div>
     </div>
+
+        <div class="item">
+            <img class="adv2" src="photos/cambodia.JPG" alt="adv2">
+                 <div class="container">
+                     <a href="#">Click here to view this adventure</a>
+                 </div>
+        </div>
+
+        <div class="item">
+            <img class="adv3" src="photos/valencia.jpg" alt="adv3">
+                <div class="container">
+                  <a href="#">Click here to view this adventure</a>
+                 </div>
+        </div>
+
+        <div class="item">
+            <img class="adv4" src="photos/turkey.jpg" alt="adv4">
+                <div class="container">
+                 <a href="#">Click here to view this adventure</a>
+                </div>
+        </div>
+
+        <div class="item">
+            <img class="adv5" src="photos/bangkok.JPG" alt="adv5">
+                <div class="container">
+                   <a href="#">Click here to view this adventure</a>
+                </div>
+        </div>
+    </div>
+
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
