@@ -54,13 +54,13 @@ button {
 
 }
 
-img#close{
+#popup img{
     right: -14px;
     top: -14px;
     cursor: pointer;
 }
 
-button{
+#mymenu button{
     width: 65px;
     height: 35px;
     border-radius: 5px;
