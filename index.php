@@ -22,7 +22,7 @@
 
 
 <div id="header">
-<h2>WANDERBLOG</h2>
+<h1>WANDERBLOG</h1>
 
     <!--top menu-->
 <ul id="mymenu">
