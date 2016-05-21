@@ -13,10 +13,10 @@
     <form class="form" action="#" id="login">
         <h3> Log In </h3>
             <hr/><br/>
-                <label>Name: <span>*</span></label>
+                <label>Name: </label>
             <br/>
         <input type="text" id="name" placeholder="name"><br/>
-            <label>Email: <span>*</span></label>
+            <label>Email: </label>
             <br/>
         <input type="text" id="email" placeholder="email"><br/>
             <br/>
