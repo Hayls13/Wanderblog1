@@ -6,7 +6,7 @@
 
 <script src="popup.js"></script>
 <script src="jquery.js"></script>
-<script src="login.css"></script>
+<link rel="stylesheet" href="login.css"/>
 
 <div class="form" id="popup">
 <p id="onclick"> Popup </p>
