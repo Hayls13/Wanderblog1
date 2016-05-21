@@ -35,7 +35,7 @@ button {
 }
 
 #bio h3{
-    align: center;
+    float: center;
 }
 
 #bio img{
@@ -54,7 +54,7 @@ button {
 
 }
 
-#popup img{
+img#close{
     right: -14px;
     top: -14px;
     cursor: pointer;
