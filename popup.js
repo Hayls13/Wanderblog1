@@ -7,13 +7,13 @@ $(document).ready(function() {
         $(this).parent().parent().hide();
     });
     $("#onclick").click(function() {
-        $("#contactdiv").css("display", "block");
+        $("#logindiv").css("display", "block");
     });
-    $("#contact #cancel").click(function() {
+    $("#login #cancel").click(function() {
         $(this).parent().parent().hide();
     });
 // Contact form popup send-button click event.
-    $("#send").click(function() {
+    $("#login").click(function() {
         var name = $("#name").val();
         var email = $("#email").val();
         var contact = $("#contactno").val();
@@ -37,7 +37,7 @@ $(document).ready(function() {
         }
     });
 // Login form popup login-button click event.
-    $("#loginbtn").click(function() {
+    $("#registerbtn").click(function() {
         var name = $("#username").val();
         var password = $("#password").val();
         if (username == "" || password == ""){
