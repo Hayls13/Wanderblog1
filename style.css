@@ -35,7 +35,7 @@ button {
 }
 
 #bio h3{
-    float: center;
+    align-content: center;
 }
 
 #bio img{
@@ -99,7 +99,7 @@ img#close{
     background-color: mintcream;
 }
 
-.advhead {
+#advhead {
     text-align: center;
 }
 
