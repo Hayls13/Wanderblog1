@@ -4,8 +4,8 @@
 <?php
 ?>
 
-<script src="popup.js"></script>
-<script src="jquery.js"></script>
+<script src="/popup.js"></script>
+<script src="/jquery.js"></script>
 <link rel="stylesheet" href="login.css"/>
 
 <div class="form" id="popup">
@@ -28,6 +28,7 @@
         <input type="button" id="cancel" value="Cancel"/>
     </form>
 </div>
+
 
 <!--register-->
 <div id="register">
