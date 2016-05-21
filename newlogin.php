@@ -24,7 +24,7 @@
             <br/>
         <input type="text" id="email" placeholder="email"><br/>
             <br/>
-        <input type="button" id="send" value="Log In"/>
+        <input type="button" id="login" value="Log In"/>
         <input type="button" id="cancel" value="Cancel"/>
     </form>
 </div>
