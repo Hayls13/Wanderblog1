@@ -68,7 +68,7 @@ textarea{
     padding:5px;
     resize:none;
 }
-#contactdiv{
+#logindiv{
     opacity:0.92;
     position: absolute;
     top: 0px;
@@ -89,7 +89,7 @@ textarea{
     display: none;
 }
 
-#login,#contact{
+#login,#register{
     width:350px;
     margin:0px;
     background-color:white;
@@ -102,7 +102,7 @@ textarea{
     margin-top: -35px;
     margin-right: -37px;
 }
-#contact{
+#register{
     left: 50%;
     top: 50%;
     margin-left:-210px;
