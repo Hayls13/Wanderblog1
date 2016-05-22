@@ -31,7 +31,7 @@ b{
     text-shadow:1px 0px 3px gray;
 }
 #popup{
-    padding-top:-80px;
+    padding-top:80px;
 }
 .form{
     border-radius:2px;
@@ -68,7 +68,7 @@ textarea{
     padding:5px;
     resize:none;
 }
-#logindiv{
+#contactdiv{
     opacity:0.92;
     position: absolute;
     top: 0px;
@@ -89,7 +89,7 @@ textarea{
     display: none;
 }
 
-#login,#register{
+#login,#contact{
     width:350px;
     margin:0px;
     background-color:white;
@@ -102,7 +102,7 @@ textarea{
     margin-top: -35px;
     margin-right: -37px;
 }
-#register{
+#contact{
     left: 50%;
     top: 50%;
     margin-left:-210px;
