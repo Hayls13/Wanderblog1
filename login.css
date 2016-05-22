@@ -99,18 +99,18 @@ textarea{
 }
 .img{
     float: right;
-    margin-top: -35px;
-    margin-right: -37px;
+    margin-top: 35px;
+    margin-right: 37px;
 }
 #register{
     left: 50%;
     top: 50%;
-    margin-left:-210px;
-    margin-top:-255px;
+    margin-left:210px;
+    margin-top:255px;
 }
 #login{
     left: 50%;
     top: 50%;
-    margin-left:-210px;
-    margin-top:-158px;
+    margin-left:210px;
+    margin-top:158px;
 }
