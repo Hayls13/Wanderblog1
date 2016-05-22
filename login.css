@@ -68,16 +68,6 @@ textarea{
     padding:5px;
     resize:none;
 }
-#contactdiv{
-    opacity:0.92;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background: #000;
-    display: none;
-}
 #logindiv{
     opacity:0.92;
     position: absolute;
@@ -88,8 +78,18 @@ textarea{
     background: #000;
     display: none;
 }
+#register{
+    opacity:0.92;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
 
-#login,#contact{
+#login,#register{
     width:350px;
     margin:0px;
     background-color:white;
@@ -102,13 +102,13 @@ textarea{
     margin-top: -35px;
     margin-right: -37px;
 }
-#contact{
+#login{
     left: 50%;
     top: 50%;
     margin-left:-210px;
     margin-top:-255px;
 }
-#login{
+#register{
     left: 50%;
     top: 50%;
     margin-left:-210px;
