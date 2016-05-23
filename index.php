@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="carousel.js"></script>
     <script src="jquery.js"></script>
+    <script src="popup.js.js"></script>
 
 
 </head>
