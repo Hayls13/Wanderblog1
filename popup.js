@@ -4,7 +4,11 @@ $(document).ready(function() {
     }
 
 
-    $("button").click(function () {
-        $("#popup").toggle();
+    $("loginbtn").click(function () {
+        $("#popupL").toggle();
     });
-}
+
+    $("registerbtn").click(function() {
+        £("#popupr").toggle();
+    })
+});

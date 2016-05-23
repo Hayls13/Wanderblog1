@@ -27,9 +27,9 @@
 
     <!--top menu-->
 <ul id="mymenu">
-    <li><button id="popup" >Login</button></li>
+    <li><button id="loginbtn" >Login</button></li>
     <li><a href="adventures.php">Search</a></li>
-    <li><button id="popup" >Register</button></li>
+    <li><button id="registerbtn" >Register</button></li>
 </ul>
 </div>
 
