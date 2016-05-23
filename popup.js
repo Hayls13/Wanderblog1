@@ -3,7 +3,7 @@ $(document).ready(function() {
     function popup() {
         $("#logindiv").css("display", "block");
     }
-    $("#login #cancel").click(function() {
+    $("#registerbtn #cancel").click(function() {
         $(this).parent().parent().hide();
     });
     $("#onclick").click(function() {
