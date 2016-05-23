@@ -4,7 +4,7 @@ $(document).ready(function() {
     }
 
 
-    $("#popup").click(function () {
+    $("button").click(function () {
         $("#popup").toggle();
     });
 }
