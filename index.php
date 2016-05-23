@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="carousel.js"></script>
     <script src="jquery.js"></script>
-    <script src="popup.js.js"></script>
+    <script src="popup.js"></script>
 
 
 </head>
@@ -33,7 +33,7 @@
 </ul>
 </div>
 
-    <div id="popup">
+    <div id="popupL">
         <!--code for the popout login box-->
         <form action="login.php" id="form" method="post" name="login">
             <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div.hide()">
