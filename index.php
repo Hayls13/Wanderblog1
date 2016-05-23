@@ -10,7 +10,7 @@
     <title>Wanderblog</title>
 
     <!--CSS and JS files-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
     <script src="/bootstrap/bootstrap/js/bootstrap.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="/carousel.js"></script>
