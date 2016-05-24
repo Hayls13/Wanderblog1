@@ -4,7 +4,7 @@ $(document).ready(function() {
     }
 
 
-    $("loginbtn").click(function () {
+    $("button").click(function () {
         $("#popupL").toggle();
     });
 
