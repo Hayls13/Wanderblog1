@@ -27,7 +27,6 @@
 
     <!--top menu-->
 <ul id="mymenu">
-    <li><button id="loginbtn" >Login</button></li>
     <li><a href="adventures.php">Search</a></li>
     <li><button id="registerbtn" >Register</button></li>
     <form action="login.php" id="form" method="post" name="login">
