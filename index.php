@@ -30,14 +30,13 @@
     <li><form action="register.php" method="post" name="register">
             <button id="registerbtn">Register</button>
         </form></li>
-
     <li><a href="adventures.php">Search</a></li>
-    <form action="login.php" id="form" method="post" name="login">
+    <li><form action="login.php" id="form" method="post" name="login">
         <input id="email" name="email" placeholder="email" type="text">
         <input id="password" name="password" placeholder="password" type="password">
         <br><input type="submit" value="enter">
         <span><?php echo $error; ?></span>
-    </form>
+    </form></li>
 </ul>
 </div>
 
