@@ -30,13 +30,12 @@ li{
 }
 
 #mymenu{
-    display:inline-block;
+    display:inline;
 }
 
 #mymenu #form {
     float: right;
 }
-
 
 button {
     background-color: #d9edf7;
