@@ -9,6 +9,6 @@ $(document).ready(function() {
     });
 
     $("#login").click(function() {
-        £("button").hide();
+        $("button").hide();
     })
 });
