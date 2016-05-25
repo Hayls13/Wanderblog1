@@ -29,6 +29,10 @@ li{
 
 }
 
+#mymenu{
+    display:inline;
+}
+
 
 button {
     background-color: #d9edf7;
@@ -43,25 +47,9 @@ button {
     margin-right: 15px;
 }
 
-#popup{
-    width: 50%;
-    height: 50%;
-    padding:10px 50px;
-    border: 2px solid gray;
-    border-radius: 20px;
-    background-color: #d9edf7;
-
-
-}
-
-img#close{
-    right: -14px;
-    top: -14px;
-    cursor: pointer;
-}
 
 #mymenu button{
-    width: 65px;
+    width: 80px;
     height: 35px;
     border-radius: 5px;
     background-color: mintcream;
