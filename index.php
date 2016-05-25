@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="carousel.js"></script>
     <script src="jquery.js"></script>
-    <script src="popup.js"></script>
+    <!--<script src="popup.js"></script>-->
 
 
 </head>
@@ -30,20 +30,18 @@
     <li><button id="loginbtn" >Login</button></li>
     <li><a href="adventures.php">Search</a></li>
     <li><button id="registerbtn" >Register</button></li>
+    <form action="login.php" id="form" method="post" name="login">
+        <input id="email" name="email" placeholder="email" type="text">
+        <input id="password" name="password" placeholder="password" type="password">
+        <br><input type="submit" value="enter">
+        <span><?php echo $error; ?></span>
+    </form>
 </ul>
 </div>
 
     <div id="popupL">
         <!--code for the popout login box-->
-        <form action="login.php" id="form" method="post" name="login">
-           <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="form.hide()">
-            <h2>Login</h2>
-            <hr>
-            <input id="email" name="email" placeholder="email" type="text">
-            <input id="password" name="password" placeholder="password" type="password">
-            <br><input type="submit" value="enter">
-            <span><?php echo $error; ?></span>
-        </form>
+
     </div>
 
 
