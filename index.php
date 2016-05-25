@@ -27,8 +27,11 @@
 
     <!--top menu-->
 <ul id="mymenu">
+    <li><form action="register.php" method="post" name="register">
+            <button id="registerbtn">Register</button>
+        </form></li>
+
     <li><a href="adventures.php">Search</a></li>
-    <li><button id="registerbtn" >Register</button></li>
     <form action="login.php" id="form" method="post" name="login">
         <input id="email" name="email" placeholder="email" type="text">
         <input id="password" name="password" placeholder="password" type="password">
