@@ -100,3 +100,11 @@ button {
     width: 300px;
     display: inline;
 }
+
+#mymenu a{
+-webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+}
