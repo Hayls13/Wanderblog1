@@ -37,9 +37,6 @@ li{
     float: right;
 }
 
-button {
-    background-color: #d9edf7;
-}
 
 #bio #header h1{
     text-align: center;
@@ -58,8 +55,7 @@ button {
     background-color: mintcream;
     color: #000;
     cursor: pointer;
-
-
+    
 }
 
 #abc {
