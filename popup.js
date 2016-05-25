@@ -4,11 +4,11 @@ $(document).ready(function() {
     }
 
 
-    $("button").click(function () {
-        $("#popupL").toggle();
+    $("#close").click(function () {
+        $("img").show();
     });
 
-    $("registerbtn").click(function() {
-        £("#popupr").toggle();
+    $("#login").click(function() {
+        £("button").hide();
     })
 });
