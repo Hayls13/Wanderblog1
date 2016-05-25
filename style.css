@@ -30,7 +30,7 @@ li{
 }
 
 #mymenu{
-    display:inline;
+    display:inline-block;
 }
 
 
