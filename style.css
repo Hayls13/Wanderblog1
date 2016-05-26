@@ -14,10 +14,6 @@ h2{
     color: black;
 }
 
-#header a{
-    float: left;
-}
-
 #mymenu li{
     display: inline;
     padding: 5px;
@@ -25,7 +21,7 @@ h2{
 
 #mymenu a{
     color: white;
-
+    float: left;
 }
 
 #mymenu{
