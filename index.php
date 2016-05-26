@@ -40,7 +40,6 @@
 
     <hr>
 
-
 <script>
 $('.carousel').carousel();
 </script>
