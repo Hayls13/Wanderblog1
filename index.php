@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="style.css">
     <script src="carousel.js"></script>
     <script src="jquery.js"></script>
-    <!--<script src="popup.js"></script>-->
-
 
 </head>
 <body>
@@ -28,13 +26,13 @@
     <!--top menu-->
 <ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
-    <li><form id="register" action="register.php" method="post" name="register">
+    <li><form id="register" action="registerlanding.php" method="post" name="register">
             <button id="registerbtn">Register</button>
         </form></li>
     <li><form action="login.php" id="form" method="post" name="login">
         <input id="email" name="email" placeholder="email" type="text">
         <input id="password" name="password" placeholder="password" type="password">
-        <br><input type="submit" value="enter">
+        <input type="submit" value="enter">
         <span><?php echo $error; ?></span>
     </form></li>
 </ul>
@@ -42,9 +40,9 @@
 
     <hr>
     <div id="popupr">
-        <!--code for the popout register box-->
+        <!--code for the popout register box
         <form action="register.php" id="form" method="post" name="login">
-            <img id="close" src="https://placeholdit.imgix.net/~text?txtsize=6&txt=50%C3%9750&w=50&h=50" onclick="div.hide()">
+
             <h2>Register</h2>
 
             <label for="fname" class="ui-hidden-accessible">First name:</label>
@@ -64,7 +62,7 @@
                     </label>
 
             <br><input type="submit" value="enter">
-        </form>
+        </form>-->
     </div>
 
 <script>
