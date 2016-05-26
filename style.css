@@ -5,24 +5,20 @@ ul {
     padding: 5px;
 }
 
-#header{
+h1{
     background-color: slategrey;
-    padding: 3px;
+    text-align: center;
 }
 
 h2{
     color: black;
 }
 
-h1{
-    text-align: center;
-}
-
 #header a{
     float: left;
 }
 
-li{
+#mymenu li{
     display: inline;
     padding: 5px;
 }
