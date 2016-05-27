@@ -8,12 +8,16 @@ ul {
 #header{
     background-color: slategrey;
     margin-top: -20px;
+    opacity: 0.2;
+    border: 2px solid black;
+
 }
 
 h1{
     text-align: center;
     color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
 #mymenu{
