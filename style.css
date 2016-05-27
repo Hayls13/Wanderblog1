@@ -9,7 +9,6 @@ ul {
     background-color: black;
     margin-top: -20px;
     border: 2px solid black;
-    z-index: 1;
     opacity: 0.3;
 }
 
