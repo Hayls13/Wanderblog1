@@ -22,6 +22,7 @@
 
 <div id="header">
 <h1>WANDERBLOG</h1>
+
     <!--top menu-->
 <div id="mymenu">
 <ul>
@@ -39,12 +40,8 @@
 </div>
 </div>
 
-
     <hr>
 
-<script>
-$('.carousel').carousel();
-</script>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
