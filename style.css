@@ -5,13 +5,12 @@ ul {
     padding: 5px;
 }
 
-h1{
+#header{
     background-color: slategrey;
-    text-align: center;
 }
 
-h2{
-    color: black;
+h1{
+    text-align: center;
 }
 
 #mymenu li{
@@ -28,7 +27,7 @@ h2{
     display:inline;
 }
 
-#mymenu #form {
+#form {
     float: right;
 }
 
@@ -36,8 +35,16 @@ h2{
     border-radius: 20px;
 }
 
-/*author*/
+#mymenu button{
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: mintcream;
+    color: #000;
+    cursor: pointer;
 
+}
+/*author*/
 
 #bio #header h1{
     text-align: center;
@@ -49,15 +56,7 @@ h2{
 }
 
 
-#mymenu button{
-    width: 80px;
-    height: 35px;
-    border-radius: 5px;
-    background-color: mintcream;
-    color: #000;
-    cursor: pointer;
 
-}
 
 #abc {
     width: 100%;
