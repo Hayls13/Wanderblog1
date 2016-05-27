@@ -8,6 +8,7 @@ ul {
 #header{
     background-color: slategrey;
     margin-top: -20px;
+    opacity: 0.5;
 }
 
 h1{
@@ -49,6 +50,7 @@ h1{
 
 #myCarousel{
     z-index: -1;
+
 }
 /*author*/
 
