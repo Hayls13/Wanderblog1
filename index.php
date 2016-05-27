@@ -22,10 +22,9 @@
 
 <div id="header">
 <h1>WANDERBLOG</h1>
-</div>
     <!--top menu-->
-<div id="mymenu">
-<ul>
+
+<ul id="mymenu">
     <li><a href="adventures.php">Search</a></li>
     <li><form id="register" action="registerlanding.php" method="post" name="register">
             <button id="registerbtn">Register</button>
