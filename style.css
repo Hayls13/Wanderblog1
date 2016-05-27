@@ -20,6 +20,7 @@ h1{
     display: inline;
     padding: 15px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 1;
 }
 
 #mymenu a{
