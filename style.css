@@ -13,11 +13,13 @@ ul {
 h1{
     text-align: center;
     color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #mymenu{
     display: inline;
     padding: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #mymenu a{
