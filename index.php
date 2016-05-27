@@ -23,8 +23,8 @@
 <div id="header">
 <h1>WANDERBLOG</h1>
     <!--top menu-->
-
-<ul id="mymenu">
+<div id="mymenu">
+<ul>
     <li><a href="adventures.php">Search</a></li>
     <li><form id="register" action="registerlanding.php" method="post" name="register">
             <button id="registerbtn">Register</button>
@@ -36,6 +36,7 @@
         <span><?php echo $error; ?></span>
     </form></li>
 </ul>
+</div>
 </div>
 
 
