@@ -18,13 +18,14 @@ h1{
     color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
+    z-index: 1;
 }
 
 #mymenu{
     display: inline;
     padding: 15px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    z-index: 1;
+    z-index: 0;
 }
 
 #mymenu a{
@@ -39,6 +40,10 @@ h1{
 
 .carousel-inner a{
     border-radius: 20px;
+}
+
+#header a #form{
+    z-index: 1;
 }
 
 #mymenu button{
