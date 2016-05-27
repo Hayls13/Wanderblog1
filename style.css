@@ -10,10 +10,6 @@ ul {
     margin-top: -20px;
     border: 2px solid black;
     z-index: -1;
-
-}
-
-#background{
     opacity: 0.3;
 }
 
