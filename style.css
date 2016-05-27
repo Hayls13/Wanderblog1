@@ -39,10 +39,6 @@ ul {
     border-radius: 20px;
 }
 
-#header a #form{
-    z-index: 1;
-}
-
 #mymenu button{
     width: 80px;
     height: 35px;
