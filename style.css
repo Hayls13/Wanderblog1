@@ -45,6 +45,11 @@ h1{
     cursor: pointer;
 
 }
+
+#myCarousel{
+    top: 0px;
+    z-index: -1;
+}
 /*author*/
 
 #bio #header h1{
