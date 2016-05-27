@@ -8,10 +8,13 @@ ul {
 #header{
     background-color: black;
     margin-top: -20px;
-    opacity: 0.2;
     border: 2px solid black;
     z-index: -1;
 
+}
+
+#background{
+    opacity: 0.3;
 }
 
 #mymenu h1{
