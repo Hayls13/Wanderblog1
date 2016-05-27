@@ -9,7 +9,7 @@ ul {
     background-color: black;
     margin-top: -20px;
     border: 2px solid black;
-    z-index: -1;
+    z-index: 1;
     opacity: 0.3;
 }
 
@@ -18,7 +18,7 @@ ul {
     color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    z-index: 1;
+    z-index: -1;
 }
 
 #mymenu{
@@ -30,10 +30,6 @@ ul {
 #mymenu a{
     color: white;
     float: left;
-}
-
-#background{
-    z-index: -1;
 }
 
 
