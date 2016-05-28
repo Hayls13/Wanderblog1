@@ -10,7 +10,9 @@
 </head>
 <body>
 
-<h1 class="advhead"> Adventures </h1>
+<div id="advhead"
+<h1> Adventures </h1>
+
 <div id = "advmenu">
 <ul>
     <li>filter by highest vote</li>
@@ -18,7 +20,7 @@
     <!--when click script an action that will sort from highest to lowest votes-->
     <li><form action="adventures.php">
             Search Adventures:
-            <input type="search" name="search">
+            <input id="search" type="search" name="search" placeholder="Country, Activity, Etc...">
             <input type="submit">
         </form>
     </li>
