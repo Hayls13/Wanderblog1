@@ -21,7 +21,7 @@
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    z-index: 12;
+    z-index: 5;
 }
 
 #mymenu{
@@ -45,14 +45,14 @@
 #mymenu a{
     color: white;
     float: left;
-    z-index: 12;
+    z-index: 5;
 }
 
 .carousel-inner a{
     border: solid black 3px;
     background-color: white;
     border-radius: 8px;
-    padding: 10px;
+    padding: 5px;
 
 }
 
