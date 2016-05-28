@@ -164,7 +164,7 @@ footer{
     display: inline;
 }
 
-#adventures a{
+#advout{
     color: black;
     padding: 10px;
     margin: 10px;
@@ -201,4 +201,5 @@ footer{
 
 #adventures{
     background: url("photos/plane.jpg") no-repeat  right top;
+
 }
