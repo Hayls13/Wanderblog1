@@ -127,6 +127,9 @@ footer{
 
 #advhead{
     position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: white;
 }
 
 #advhead ul{
