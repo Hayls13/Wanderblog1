@@ -92,7 +92,7 @@
 
 <footer>
     <br>
-    <p> Website created by Hayley Reid &copy; </p>
+    <p> Website created by Hayley Reid&copy; </p>
     <p> 2016 </p>
     <hr>
 </footer>
