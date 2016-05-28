@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" xmlns="http://www.w3.org/1999/html">
 <title>Wanderblog</title>
 <head>
 <link rel="stylesheet" href="/bootstrap/bootstrap/css/bootstrap.min.css">
@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div id="advhead"
+<div id="advhead">
 <h1> Adventures </h1>
 
 <div id = "advmenu">
@@ -21,15 +21,15 @@
             Search Adventures:
             <input id="search" type="search" name="search" placeholder="Country, Activity, Etc...">
             <input type="submit">
-        </form>
+        </form></li>
     <li>filter by highest vote</li>
-    </li>
+
 </ul>
+</div>
 </div>
 
 
 
-</body>
 
 <div id="adventures">
 <?php
@@ -91,3 +91,4 @@ echo "</div>";
 
 </div>
 
+</body>
