@@ -11,11 +11,14 @@
 <body>
 
 <div id="advhead">
-<h1> Adventures </h1>
+    <ul>
+        <li><h1> Adventures </h1></li>
+        <li><a href="index.php">Home</a></li>
+    </ul>
+
 
 <div id = "advmenu">
 <ul>
-    <li><a href="index.php">Home</a></li>
     <!--when click script an action that will sort from highest to lowest votes-->
     <li><form action="adventures.php">
             Search Adventures:

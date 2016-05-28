@@ -118,11 +118,15 @@ footer{
 /*adventure*/
 
 #advmenu #search{
-    width: 150px;
+    width: 170px;
 }
 #advmenu ul{
     display: inline;
     list-style: none;
+}
+
+#advmenu a{
+
 }
 
 #adventures a{
