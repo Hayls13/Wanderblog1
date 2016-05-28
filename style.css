@@ -70,7 +70,11 @@ form{
     color: #000;
 }
 
-#mymenu #email #password{
+#mymenu #email{
+    width: 120px;
+}
+
+#mymenu #password{
     width: 120px;
 }
 
