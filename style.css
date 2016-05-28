@@ -139,6 +139,7 @@ footer{
     padding: 10px;
     margin: 10px;
     background-color: mintcream;
+    display: inline;
 }
 
 #advhead h1 {
