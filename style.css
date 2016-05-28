@@ -126,7 +126,7 @@ footer{
 }
 
 #advhead{
-    position: absolute;
+    position: relative;
 }
 
 #advhead ul{
