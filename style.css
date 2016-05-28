@@ -54,6 +54,12 @@
     color: white;
 }
 
+#mymenu a:hover{
+    background-color: #265a88;
+    opacity: 0.6;
+    color: white;
+}
+
 
 #mymenu{
     display: inline;
