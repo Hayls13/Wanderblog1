@@ -70,6 +70,10 @@ form{
     color: #000;
 }
 
+#email #password{
+    width: 120px;
+}
+
 #myCarousel{
     z-index: 5;
     width: 100%;
