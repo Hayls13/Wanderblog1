@@ -56,37 +56,22 @@
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <img class="adv1" src="photos/london.JPG" alt="adv1">
-            <div class="carousel-caption">
-            <a href="#">Click here to view this adventure</a>
-        </div>
     </div>
 
         <div class="item">
             <img class="adv2" src="photos/cambodia.JPG" alt="adv2">
-                 <div class="carousel-caption">
-                     <a href="#">Click here to view this adventure</a>
-                 </div>
         </div>
 
         <div class="item">
             <img class="adv3" src="photos/valencia.jpg" alt="adv3">
-                <div class="carousel-caption">
-                  <a href="#">Click here to view this adventure</a>
-                 </div>
         </div>
 
         <div class="item">
             <img class="adv4" src="photos/turkey.jpg" alt="adv4">
-                <div class="carousel-caption">
-                 <a href="#">Click here to view this adventure</a>
-                </div>
         </div>
 
         <div class="item">
             <img class="adv5" src="photos/bangkok.JPG" alt="adv5">
-                <div class="carousel-caption">
-                   <a href="#">Click here to view this adventure</a>
-                </div>
         </div>
     </div>
 
