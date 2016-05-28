@@ -48,7 +48,7 @@
     text-decoration: none;
 }
 
-#mymenu a:hover{
+#mymenu button:hover{
     color: #265a88;
 }
 
