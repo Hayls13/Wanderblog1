@@ -79,6 +79,12 @@ form{
     background-size: contain;
 
 }
+
+footer{
+    display: block;
+    background-color: black;
+    color: white;
+}
 /*author*/
 
 #bio #header h1{

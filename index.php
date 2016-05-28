@@ -42,7 +42,7 @@
 </div>
 
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
     <!-- Indicators
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -89,6 +89,12 @@
 </div>
 
 </body>
+
+<footer>
+    <p> Website created by Hayley Reid</p>
+    <hr>
+    <p> 2016 </p>
+</footer>
 </html>
 
 
