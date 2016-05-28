@@ -76,7 +76,8 @@ form{
 
 #myCarousel{
     z-index: 5;
-    background-size: contain;
+    height: auto;
+    width: auto;
 
 }
 
