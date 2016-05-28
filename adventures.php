@@ -15,7 +15,6 @@
 
 <div id = "advmenu">
 <ul>
-    <li>filter by highest vote</li>
     <li><a href="index.php">Home</a></li>
     <!--when click script an action that will sort from highest to lowest votes-->
     <li><form action="adventures.php">
@@ -23,6 +22,7 @@
             <input id="search" type="search" name="search" placeholder="Country, Activity, Etc...">
             <input type="submit">
         </form>
+    <li>filter by highest vote</li>
     </li>
 </ul>
 </div>
@@ -64,19 +64,13 @@ $sqlimage  = "SELECT adventureAddress FROM photo";
 $imageresult1 = $db->query($sqlimage);
 
 
-
-
-
-
-
-
 //prints out all adventures found in query
 while($row = $result->fetch_array()){
     while( $imageoutput = $imageresult1->fetch_array()){
         $photo = $imageoutput['adventureAddress'];
         $title = $row['title'];
      echo "<a href='adventureinfo.php'>". $title . "</a>";
-     echo "<div id='photos''>" . "<img src=". $photo . "/>" . "</div>";
+     echo "<div id='photos'>" . "<img src=". $photo . "/>" . "</div>";
 
     }
 }
