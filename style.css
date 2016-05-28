@@ -125,8 +125,8 @@ footer{
     list-style: none;
 }
 
-#advmenu a{
-
+#advhead{
+    position: absolute;
 }
 
 #advhead ul{
@@ -151,7 +151,7 @@ footer{
     padding: 15px;
 }
 
-#photos {
+#photos img{
     height: 300px;
     width: 300px;
     display: inline;
