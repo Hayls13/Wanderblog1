@@ -40,16 +40,14 @@
     background-color: white;
     border-radius: 8px;
     padding: 10px;
+    color: black;
+    float: left;
+    z-index: 5;
+    text-decoration: none;
 }
 
 #mymenu input{
     width: 20%;
-}
-
-#mymenu a{
-    color: white;
-    float: left;
-    z-index: 5;
 }
 
 .carousel-inner a{
