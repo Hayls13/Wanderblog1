@@ -47,9 +47,10 @@ $db= new mysqli(
 
 if ($db->connect_errno) {
     die('connection failed :'.$db->connect_error);
-} else {
-    echo "<p> Connection successful</p>";
 }
+/* else {
+    echo "<p> Connection successful</p>";
+} */
 
 
 //query to find all adventures in db

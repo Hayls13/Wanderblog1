@@ -128,8 +128,13 @@ footer{
     background-color: mintcream;
 }
 
-#advhead {
+#advhead h1 {
     text-align: center;
+}
+
+#advhead{
+    background-color: black;
+    color: white;
 }
 
 #photos {
