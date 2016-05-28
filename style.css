@@ -119,6 +119,7 @@ footer{
 
 #advmenu ul{
     display: inline;
+    list-style: none;
 }
 
 #adventures a{
