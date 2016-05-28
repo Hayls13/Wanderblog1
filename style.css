@@ -31,10 +31,18 @@
     z-index: 12;
 }
 
+#mymenu input{
+    width: 20px;
+}
+
 #mymenu a{
     color: white;
     float: left;
     z-index: 12;
+}
+
+.carousel-inner a{
+    border: solid black 3px;
 }
 
 form{
