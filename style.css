@@ -37,7 +37,7 @@
     z-index: 12;
 }
 
-#mymenu a{
+#mymenu a {
     border: solid black 3px;
     background-color: white;
     border-radius: 8px;
@@ -46,7 +46,7 @@
     float: left;
     z-index: 5;
     text-decoration: none;
-
+}
 
 #mymenu a:hover{
     color: #265a88;
