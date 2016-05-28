@@ -46,8 +46,8 @@
     text-decoration: none;
 }
 
-#mymenu input{
-    width: 20%;
+#mymenu{
+    display: inline;
 }
 
 .carousel-inner a{
