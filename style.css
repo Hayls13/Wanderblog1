@@ -6,6 +6,8 @@
     display: inline;
 }
 
+
+
 #header{
     background-color: black;
     margin-top: -20px;
@@ -44,7 +46,12 @@
     float: left;
     z-index: 5;
     text-decoration: none;
+
+
+#mymenu a:hover{
+    color: #265a88;
 }
+
 
 #mymenu{
     display: inline;

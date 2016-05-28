@@ -12,7 +12,7 @@
 
 <div id="advhead">
     <ul>
-        <li><h1> Adventures </h1></li>
+        <li><h1> ADVENTURES </h1></li>
         <li><a href="index.php">Home</a></li>
     </ul>
 
