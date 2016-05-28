@@ -1,6 +1,6 @@
 /*index*/
 
-ul {
+#mymenu ul {
     list-style-type: none;
     padding: 5px;
     display: inline;
