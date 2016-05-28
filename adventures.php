@@ -74,7 +74,7 @@ while($row = $result->fetch_array()){
         echo "<div id='advout'>";
      echo "<a href='adventureinfo.php'>". $title . "</a>";
      echo "<div id='photos'>" . "<img src=". $photo . "/>" . "</div>";
-        
+
     }
 }
 echo "</div>";
