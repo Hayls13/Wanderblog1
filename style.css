@@ -48,8 +48,8 @@
     text-decoration: none;
 }
 
-#mymenu button:hover a:hover{
-    color: #265a88;
+#mymenu button:hover{
+    background-color: #265a88;
 }
 
 
