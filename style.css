@@ -31,6 +31,13 @@
     z-index: 12;
 }
 
+#mymenu a{
+    border: solid black 3px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
 #mymenu input{
     width: 20%;
 }
@@ -45,6 +52,8 @@
     border: solid black 3px;
     background-color: white;
     border-radius: 8px;
+    padding: 10px;
+
 }
 
 form{
