@@ -129,6 +129,11 @@ footer{
 
 }
 
+#advhead ul{
+    list-style: none;
+    display: inline;
+}
+
 #adventures a{
     color: black;
     padding: 10px;
