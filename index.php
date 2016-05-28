@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<div id="background">
+
 <div id="header">
 <h1>WANDERBLOG</h1>
 
@@ -100,7 +100,6 @@
         <span class="sr-only">Next</span>
     </a>
 
-</div>
 </div>
 
 </body>
