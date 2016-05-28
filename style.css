@@ -117,6 +117,9 @@ footer{
 
 /*adventure*/
 
+#advmenu #search{
+    width: 30px;
+}
 #advmenu ul{
     display: inline;
     list-style: none;
