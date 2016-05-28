@@ -14,6 +14,7 @@
     padding: 20px;
     position: absolute;
     z-index: 10;
+    width: 100%;
 }
 
 #mymenu h1{
@@ -52,6 +53,8 @@ form{
 
 #myCarousel{
     z-index: 5;
+    width: 100%;
+    height: 100%;
 
 }
 /*author*/
