@@ -91,8 +91,8 @@
 </body>
 
 <footer>
-    <p> Website created by Hayley Reid</p>
     <hr>
+    <p> Website created by Hayley Reid</p>
     <p> 2016 </p>
 </footer>
 </html>
