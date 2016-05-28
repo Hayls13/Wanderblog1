@@ -16,6 +16,10 @@
     z-index: 10;
     width: 100%;
 }
+
+#header:hover{
+    opacity: 1;
+}
 #header h1 {
     text-align: center;
     color: white;
