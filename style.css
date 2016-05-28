@@ -22,21 +22,20 @@
     color: black;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
+    z-index: 12;
 }
 
 #mymenu{
     display: inline;
     padding: 15px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    z-index: 12;
 }
 
 #mymenu a{
     color: white;
     float: left;
-}
-
-.carousel-inner a{
-    border-radius: 20px;
+    z-index: 12;
 }
 
 form{
