@@ -171,6 +171,11 @@ footer{
     background-color: mintcream;
 }
 
+#advout:hover{
+    background-color: black;
+    color: white;
+}
+
 #advresults{
     display: inline;
     width: 45%;
