@@ -173,6 +173,7 @@ footer{
 
 #advresults{
     display: inline;
+    width: 45%;
 }
 
 #advhead h1 {
@@ -199,7 +200,9 @@ footer{
     padding: 20px;
 }
 
+/*
 #adventures{
     background: url("photos/plane.jpg") no-repeat  right top;
 
 }
+*/
