@@ -182,7 +182,7 @@ footer{
 #advhead{
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 5px;
 }
 
 #advhead a{
@@ -194,7 +194,7 @@ footer{
 
 #photos img{
     height: 300px;
-    width: 150px;
+    width: 300px;
     display: inline;
     padding: 20px;
 }
