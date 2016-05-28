@@ -78,6 +78,7 @@ form{
     z-index: 5;
     background-size: cover;
     max-width: 2000px;
+    max-height: 1000px;
 
 }
 
