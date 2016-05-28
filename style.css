@@ -200,7 +200,5 @@ footer{
 }
 
 #adventures{
-    background-image: url("photos/plane.jpg");
-    width: 100%;
-    height: 100%;
+    background: url("photos/plane.jpg") no-repeat  right top;
 }
