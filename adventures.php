@@ -75,12 +75,12 @@ while($row = $result->fetch_array()){
 
     }
 }
-
+echo "</div>";
 $result->close();
 $imageresult1->close();
 
 
-echo "</div>";
+
 
 
 
