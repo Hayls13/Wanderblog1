@@ -71,12 +71,11 @@ while($row = $result->fetch_array()){
     while( $imageoutput = $imageresult1->fetch_array()){
         $photo = $imageoutput['adventureAddress'];
         $title = $row['title'];
-        echo "<div id='advout'>";
      echo "<a href='adventureinfo.php'>" . "<div id='photos'>" .$title . "<img src=". $photo . "/>" .  "</a>" . "</div>";
 
     }
 }
-echo "</div>";
+
 $result->close();
 $imageresult1->close();
 
