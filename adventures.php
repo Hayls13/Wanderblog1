@@ -72,8 +72,7 @@ while($row = $result->fetch_array()){
         $photo = $imageoutput['adventureAddress'];
         $title = $row['title'];
         echo "<div id='advout'>";
-     echo "<a href='adventureinfo.php'>". $title . "</a>";
-     echo "<div id='photos'>" . "<img src=". $photo . "/>" . "</div>";
+     echo "<a href='adventureinfo.php'>" . "<div id='photos'>" .$title . "<img src=". $photo . "/>" .  "</a>" . "</div>";
 
     }
 }
