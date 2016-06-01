@@ -166,6 +166,7 @@ footer{
     padding: 10px;
     background-color: mintcream;
     width: 350px;
+    display: inline;
 }
 
 #photos:hover{
