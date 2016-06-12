@@ -160,8 +160,8 @@ footer{
     display: inline;
 }
 
-#advhead h1{
-    text-weight: bold;
+#advhead ul h1{
+    text-emphasis: circle;
 }
 
 #photos{
