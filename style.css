@@ -160,6 +160,10 @@ footer{
     display: inline;
 }
 
+#advhead h1{
+    text-weight: bold;
+}
+
 #photos{
     color: black;
     margin: 10px;
