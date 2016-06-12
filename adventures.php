@@ -65,7 +65,7 @@ $result = $db->query($sql_query);
 $sqlimage  = "SELECT adventureAddress FROM photo";
 $imageresult1 = $db->query($sqlimage);
 
-echo '<div id ="advresults">';
+echo "<div id ='advresults'>";
 //prints out all adventures found in query
 while($row = $result->fetch_array()){
     while( $imageoutput = $imageresult1->fetch_array()){
