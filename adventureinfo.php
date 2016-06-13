@@ -23,6 +23,7 @@ $sql_query = "SELECT * FROM adventure";
 $result = $db->query($sql_query);
 
 
+echo "<p>" . "test" . "</p>";
 $title = $row['title'];
 
 
