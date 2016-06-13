@@ -7,6 +7,8 @@
 
 <?php
 
+error_reporting(E_ALL);
+
 include ("adventures.php");
 
 $db = new mysqli(
@@ -36,5 +38,5 @@ while($row = $result->fetch_array()) {
 ?>
 
 <div id="advinfo">
-    
+
 </div>
