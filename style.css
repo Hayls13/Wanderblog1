@@ -205,3 +205,8 @@ footer{
 }
 
 
+/*register landing page*/
+
+#form {
+    float: left;
+}

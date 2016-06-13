@@ -63,12 +63,12 @@ $result = $db->query($sql_query);
 
 //query to find all images in db
 $sqlimage  = "SELECT adventureAddress FROM photo";
-$imageresult1 = $db->query($sqlimage);
+$imageresult = $db->query($sqlimage);
 
 echo "<div id ='advresults'>";
 //prints out all adventures found in query
 while($row = $result->fetch_array()){
-    while( $imageoutput = $imageresult1->fetch_array()){
+    while( $imageoutput = $imageresult->fetch_array()){
         $photo = $imageoutput['adventureAddress'];
         $title = $row['title'];
      echo "<a href='adventureinfo.php'>" . "<div id='photos'>"  . $title . "<img src=". $photo . "/>" .  "</a>" . "</div>";
@@ -77,7 +77,7 @@ while($row = $result->fetch_array()){
 }
 echo "</div>";
 $result->close();
-$imageresult1->close();
+$imageresult->close();
 
 
 
