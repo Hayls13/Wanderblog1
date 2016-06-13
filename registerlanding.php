@@ -11,6 +11,7 @@
 </head>
 <body>
 
+<div id="registerform">
 
 <form action="register.php" id="form" method="post" name="register">
 
@@ -34,5 +35,7 @@
 
     <br><input type="submit" value="enter">
 </form>
+
+</div>
 
 </body>
