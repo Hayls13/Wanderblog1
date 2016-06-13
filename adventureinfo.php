@@ -1,3 +1,10 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
 <?php
 
 include ("adventures.php");
@@ -10,13 +17,24 @@ $db = new mysqli(
 );
 
 
+$sql_query = "SELECT * FROM adventure";
+$result = $db->query($sql_query);
+
 
 $title = $row['title'];
 
 
-echo "test";
 
-echo "<p>" . $title . "</p>";
+
 
 ?>
 
+<?php
+while($row = $result->fetch_array()) {
+    echo "<h1>" . $title . "</h1>";
+}
+?>
+
+<div id="advinfo">
+    
+</div>
