@@ -104,13 +104,13 @@ form{
 }
 
 footer{
-    display: block;
     background-color: black;
     color: white;
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    padding-bottom: -40px;
-
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 /*author*/
 
@@ -211,11 +211,6 @@ footer{
     padding: 20px;
 }
 
-#advfoot {
-   position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
 
 /*register landing page*/
