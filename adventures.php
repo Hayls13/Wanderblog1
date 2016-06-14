@@ -54,7 +54,7 @@ if ($db->connect_errno) {
     echo "<p> Connection successful</p>";
 } */
 
-
+echo "<div id ='advresults'>";
 //query to find all adventures in db
 
 $sql_query = "SELECT * FROM adventure";
@@ -65,7 +65,7 @@ $result = $db->query($sql_query);
 $sqlimage  = "SELECT adventureAddress FROM photo";
 $imageresult = $db->query($sqlimage);
 
-echo "<div id ='advresults'>";
+
 //prints out all adventures found in query
 while($row = $result->fetch_array()){
     while( $imageoutput = $imageresult->fetch_array()){
