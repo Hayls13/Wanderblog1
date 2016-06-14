@@ -71,11 +71,13 @@ while($row = $result->fetch_array()){
     while( $imageoutput = $imageresult->fetch_array()){
         $photo = $imageoutput['adventureAddress'];
         $title = $row['title'];
-     echo "<a href='adventureinfo.php'>" . "<div id='photos'>"  . $title . "<img src=". $photo . "/>" .  "</a>" . "</div>";
+     echo "<a href='adventureinfo.php'>" . "    <div id='photos'>"  . $title . "<img src=". $photo . "/>" .  "</a>" . "</div>";
 
     }
 }
 echo "</div>";
+
+
 $result->close();
 $imageresult->close();
 
@@ -93,4 +95,12 @@ $imageresult->close();
 
 </div>
 
+
 </body>
+
+<footer>
+    <br>
+    <p> Website created by Hayley Reid&copy; </p>
+    <p> 2016 </p>
+    <hr>
+</footer>

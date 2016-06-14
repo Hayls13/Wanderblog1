@@ -34,7 +34,7 @@
     <li><form action="login.php" id="form" method="post" name="login">
         <input id="email" name="email" placeholder="email" type="text">
         <input id="password" name="password" placeholder="password" type="password">
-        <input type="submit" value="enter">
+        <input type="submit" value="Enter">
         <span><?php echo $error; ?></span>
     </form></li>
 </ul>
