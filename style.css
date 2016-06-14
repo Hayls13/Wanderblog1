@@ -161,20 +161,24 @@ footer{
 }
 
 #photos{
-    color: black;
+
     margin: 10px;
     padding: 10px;
     background-color: lightslategrey;
     width: 330px;
     height: 350px;
     text-align: center;
-
 }
 
 #photos:hover{
     background-color: black;
+
+}
+
+#photos a:link, a:visited, a:hover, a:active{
     color: white;
 }
+
 
 
 #advhead h1 {
