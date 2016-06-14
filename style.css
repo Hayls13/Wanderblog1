@@ -139,6 +139,10 @@ footer{
 
 /*adventure*/
 
+#adventures {
+    background-color: slategray;
+}
+
 #advmenu #search{
     width: 170px;
 }
