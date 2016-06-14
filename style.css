@@ -167,7 +167,8 @@ footer{
     background-color: mintcream;
     width: 330px;
     height: 350px;
-  
+    text-align: center;
+
 }
 
 #photos:hover{
