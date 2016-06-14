@@ -211,6 +211,11 @@ footer{
     padding: 20px;
 }
 
+#advfoot {
+   position: absolute;
+    bottom: 0;
+}
+
 
 /*register landing page*/
 

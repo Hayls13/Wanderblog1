@@ -98,7 +98,7 @@ $imageresult->close();
 
 </body>
 
-<footer>
+<footer id="advfoot">
     <br>
     <p> Website created by Hayley Reid&copy; </p>
     <p> 2016 </p>
