@@ -50,9 +50,9 @@ $db= new mysqli(
 if ($db->connect_errno) {
     die('connection failed :'.$db->connect_error);
 }
-/* else {
+else {
     echo "<p> Connection successful</p>";
-} */
+} 
 
 echo "<div id ='advresults'>";
 //query to find all adventures in db
