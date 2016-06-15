@@ -72,7 +72,7 @@ $imageresult = $db->query($sqlimage);
 while($row = $resultt->fetch_array()){
     while( $imageoutput = $imageresult->fetch_array()){
         $photo = $imageoutput['adventureAddress'];
-        $title = $row['title'];
+        $title = $row['adventureID'];
      echo "<a href='adventureinfo.php'>" . "    <div id='photos'>"  . $title . "<img src=". $photo . "/>" .  "</a>" . "</div>";
 
     }
