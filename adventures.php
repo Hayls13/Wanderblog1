@@ -57,7 +57,7 @@ if ($db->connect_errno) {
 echo "<div id ='advresults'>";
 //query to find all adventures in db
 
-$sql_query = "SELECT * FROM adventure";
+$sql_query = "SELECT title FROM adventure";
 $resultt = $db->query($sql_query);
 
 
