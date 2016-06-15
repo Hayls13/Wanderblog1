@@ -68,7 +68,7 @@ $imageresult = $db->query($sqlimage);
 
 
 //prints out all adventures found in query
-while($row = fetch_array($resultt)){
+while($row = $resultt->fetch_array()){
     while( $imageoutput = $imageresult->fetch_array()){
         $photo = $imageoutput['adventureAddress'];
         $title = $row['title'];
