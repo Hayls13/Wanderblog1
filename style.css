@@ -139,9 +139,8 @@ footer{
 
 /*adventure*/
 
-#adventures {
+#advbody {
     background-color: lightgrey;
-    height: 100%;
 }
 
 #advmenu #search{

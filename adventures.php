@@ -8,7 +8,7 @@
 <script src="/bootstrap/bootstrap/js/bootstrap.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="advbody">
 
 <div id="advhead">
     <ul>
