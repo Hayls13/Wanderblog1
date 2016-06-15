@@ -58,7 +58,7 @@ else {
 echo "<div id ='advresults'>";
 //query to find all adventures in db
 
-$sql_query = "SELECT adventureID AND title FROM adventure";
+$sql_query = "SELECT title FROM adventure";
 $resultt = $db->query($sql_query);
 
 
@@ -71,7 +71,7 @@ $imageresult = $db->query($sqlimage);
 while($row = $resultt->fetch_array()){
     while( $imageoutput = $imageresult->fetch_array()){
         $photo = $imageoutput['adventureAddress'];
-        $title = $row['title' . 'adventureID'];
+        $title = $row['title'];
      echo "<a href='adventureinfo.php'>" . "    <div id='photos'>"  . $title . "<img src=". $photo . "/>" .  "</a>" . "</div>";
 
     }
