@@ -58,7 +58,7 @@ echo "<div id ='advresults'>";
 //query to find all adventures in db
 
 $sql_query = "SELECT * FROM adventure";
-$result = $db->query($sql_query);
+$resultt = $db->query($sql_query);
 
 
 //query to find all images in db
@@ -67,7 +67,7 @@ $imageresult = $db->query($sqlimage);
 
 
 //prints out all adventures found in query
-while($row = $result->fetch_array()){
+while($row = $resultt->fetch_array()){
     while( $imageoutput = $imageresult->fetch_array()){
         $photo = $imageoutput['adventureAddress'];
         $title = $row['title'];
@@ -78,7 +78,7 @@ while($row = $result->fetch_array()){
 echo "</div>";
 
 
-$result->close();
+$resultt->close();
 $imageresult->close();
 
 
