@@ -55,10 +55,11 @@ else {
     echo "<p> Connection successful</p>";
 }
 */
+
 echo "<div id ='advresults'>";
 //query to find all adventures in db
 
-$sql_query = "SELECT title FROM adventure";
+$sql_query = "SELECT adventureID FROM photo";
 $resultt = $db->query($sql_query);
 
 
