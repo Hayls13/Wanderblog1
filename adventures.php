@@ -58,7 +58,7 @@ else {
 echo "<div id ='advresults'>";
 //query to find all adventures in db
 
-$sql_query = "SELECT adventureID.photo AND title FROM adventure";
+$sql_query = "SELECT adventureID AND title FROM adventure";
 $resultt = $db->query($sql_query);
 
 
